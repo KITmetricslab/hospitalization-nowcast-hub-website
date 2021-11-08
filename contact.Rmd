@@ -1,0 +1,13 @@
+---
+title: "Kontakt"
+---
+
+Diese Plattform wird betrieben von Mitgliedern des [Lehrstuhls für Statistik und Ökonometrie](https://statistik.econ.kit.edu/index.php) am Karlsruher Institut für Technologie und der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien.
+
+Sie können uns unter forecasthub@econ.kit.edu kontaktieren.
+
+---
+
+This platform is run by members of the [Chair of Econometrics and Statistics](https://statistik.econ.kit.edu/english/index.php) at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/research/cst/) at Heidelberg Institute for Theoretical Studies.
+
+You can contact us at forecasthub@econ.kit.edu.

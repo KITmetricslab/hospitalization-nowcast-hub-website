@@ -1,0 +1,27 @@
+---
+title: ""
+---
+<style>
+div.main-container {
+    max-width: none;
+}
+body{
+    padding-bottom: 0px;
+}
+.title{
+    display: none;
+}
+
+.main-content{
+    padding-top: 45px;
+    height: 100%
+}
+
+iframe{
+    border:none;
+}
+</style>
+
+```{r, out.width="100%", echo=FALSE}
+knitr::include_url("https://jobrac.shinyapps.io/nowcast_viz_de/", height = "800px")
+```

@@ -1,0 +1,7 @@
+div.main-container {
+  max-width: 6000px !important;
+}
+
+iframe {
+  border: none;
+}
