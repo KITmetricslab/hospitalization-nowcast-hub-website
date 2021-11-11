@@ -16,15 +16,20 @@ tba
 </p>
 </details>
 
-<details><summary>Was ist die 7-Tages Hospitalisierungsinzidenz?</summary>
+<details><summary>Was ist die 7-Tage-Hospitalisierungsinzidenz?</summary>
 <p>
-tba
+Die heutige 7-Tage-Hospitalisierungsinzidenz ist die Anzahl an hospitalisierten COVID-19 Fällen (absolut oder pro 100.000 Einwohner) deren Meldedatum, also das Datum an dem das lokale Gesundheitsamt den Fall als COVID-19 Fall elektronisch erfasst hat, in den vergangenen 7 Tagen liegt. 
+
+Weitere Informationen sowie die aktuellen und vergangenen 7-Tage-Hospitalisierungsinzidenzen finden sich auf der [Github Seite des Robert Koch-Instituts](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland).
 </p>
 </details>
 
 <details><summary>Warum sind die berichteten Werte der letzten Tage unzuverlässig und warum ist das ein Problem?</summary>
 <p>
-tba
+Zwischen dem Meldedatum und dem Datum, an welchem ein hospitalisierter Fall vom Robert Koch-Institut in die 7-Tage-Hospitalisierungsinzidenz aufgenommen wird, können mehrere Tage vergehen.
+Deswegen ändern sich die täglichen, nach Meldedatum ausgewiesenen, Hospitalisierungen nachträglich. 
+Diese Nachtragungen sind umso größer, je näher man am aktuellen Tag ist; die berichteten Werte der letzten Tage unterschätzen damit die tatsächlichen Hospitalisierungen.
+Insbesondere kann dadurch der Eindruck einer fallenden Inzidenz entstehen, selbst wenn diese in Wirklichkeit steigt.
 </p>
 </details>
 
@@ -54,7 +59,9 @@ tba
 
 <details><summary>Wieso werden Nowcasts für den heutigen und den gestrigen Tag standardmäßig nicht angezeigt?</summary>
 <p>
-tba
+Für den heutigen und gestrigen Tag werden besonders viele Fälle nachgemeldet. 
+Dadurch sind auch die Nowcasts für diese Tage weniger zuverlässig als für Tage, die weiter in der Vergangenheit liegen.
+Wir empfehlen deswegen Inzidenzen und Nowcasts für den heutigen und gestrigen Tag sehr vorsichtig zu interpretieren.
 </p>
 </details>
 
