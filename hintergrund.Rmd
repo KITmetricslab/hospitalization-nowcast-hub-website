@@ -2,4 +2,114 @@
 title: "Hintergrund"
 ---
 
-Bald verfügbar.
+<br>
+
+#### Diese Seite befindet sich derzeit im Aufbau.
+
+<br>
+
+### FAQ
+
+<details><summary>Was ist das Ziel dieser Plattform?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Was ist die 7-Tages Hospitalisierungsinzidenz??</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Warum sind die berichteten Werte der letzten Tage unzuverlässig und warum ist das ein Problem?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Was bedeutet Nowcasting und wie sollten die Nowcasts interpretiert werden?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Wieso werden mehrere verschiedene Nowcasts gezeigt? Was ist ein Ensemble-Nowcast?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Warum ist es wichtig, Unsicherheitsintervalle mit anzugeben?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Was sind mögliche Probleme und Schwächen? Wann muss man bei der Interpretation besonders vorsichtig sein?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Wieso werden Nowcasts für den heutigen und den gestrigen Tag standardmäßig nicht angezeigt?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Was zeigt die "Zeitreihe nach Erscheinen in RKI-Daten"?</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>Was ist mit "nachträglich erstellten Nowcasts" gemeint?</summary>
+<p>
+tba
+</p>
+</details>
+
+<br>
+
+### Beteiligte Forschungsgruppen
+
+Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php) am Karlsruher Institut für Technologie betrieben. Mehrere unabhängige weitere Forschungsgruppen tragen Nowcasts bei:
+
+- [Institut für Stochastik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/)
+
+Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) des Robert Koch Instituts.
+
+<br>
+
+### Methodendokumentation
+
+<details><summary>ILM-prop (TU Ilmenau)</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>KIT-simple_nowcast (Karlsruher Institut für Technologie)</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>RKI-weekly_report (Robert Koch Institut)</summary>
+<p>
+tba
+</p>
+</details>
+
+<br>
+
+### Evaluationsstudie
+
+<br>
+
+### Verwandte Projekte
+
+- Der [europäische](https://covid19forecasthub.eu/), [US-amerikanische](https://covid19forecasthub.org/) and [deutsch/polnische](kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
+- [Nowcasts für Fallzahlen und die effektive Reproduktionszahl](https://corona.stat.uni-muenchen.de/nowcast/) der CODAG Gruppe an der LMU München.
+- Der [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/) mit längerfristigen Szenario-Projektionen.

@@ -2,4 +2,116 @@
 title: "Background"
 ---
 
-Available soon.
+<br>
+
+#### This page is currently under construction.
+
+<br>
+
+### FAQ
+
+<details><summary>What is the goal of this platform?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>What is the 7-day hospitalization incidence?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>Why are the reported values for the most recent days unreliable and why is that a problem?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>What does nowcasting mean and how should nowcasts be interpreted?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>Why are several different nowcasts shown? What is an ensemble nowcast?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>Why is it important to provide uncertainty intervals?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>What are possible difficulties and weaknesses? When are results to be interpreted with special care?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>Why are nowcasts for the current and previous day not shown by default?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>What does the "time series by appearance in RKI data" show?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<details><summary>What is meant by "retrospective nowcasts"?</summary>
+<p>
+Bla
+</p>
+</details>
+
+<br>
+
+### Contributing research groups
+
+This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php) at Karlsruhe Institute of Technology. Several other independent research groups contribute nowcasts:
+
+- [Institute of Stochastics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/)
+
+Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) of the Robert Koch Institute.
+
+<br>
+
+### Methods description
+
+<details><summary>ILM-prop (TU Ilmenau)</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>KIT-simple_nowcast (Karlsruher Institut für Technologie)</summary>
+<p>
+tba
+</p>
+</details>
+
+<details><summary>RKI-weekly_report (Robert Koch Institut)</summary>
+<p>
+tba
+</p>
+</details>
+
+<br>
+
+### Evaluation study
+
+<br>
+
+### Related projects
+
+If you find this platform interesting you may also want to check out:
+
+- [Nowcasting of case numbers and the effective reproductive number](https://corona.stat.uni-muenchen.de/nowcast/) by the CODAG group at LMU Munich.
+- The [European](https://covid19forecasthub.eu/), [US](https://covid19forecasthub.org/) and [German/Polish](kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hubs on short-term forecasts of cases and deaths (one through four weeks ahead).
+- The [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/) on longer-term scenario projections.
