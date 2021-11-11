@@ -3,14 +3,12 @@ css: doc.css
 navbar:
   title: "covid19nowcasthub.de"
   left:
-    - text: "Home"
+    - text: "Nowcasts"
       href: index.html
     - text: "Hintergrund (DE)"
       href: hintergrund.html
     - text: "Background (EN)"
       href: background.html
-    - text: "Nowcasts"
-      href: viz.html
     - text: "Kontakt"
       href: contact.html
   right:
