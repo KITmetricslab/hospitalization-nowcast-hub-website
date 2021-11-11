@@ -36,13 +36,13 @@ tba
 
 <details><summary>Wieso werden mehrere verschiedene Nowcasts gezeigt? Was ist ein Ensemble-Nowcast?</summary>
 <p>
-tba
+Bei der Erstellung von Nowcasts werden immer Annahmen getroffen (explizit oder implizit). Zudem werden für die Modelle teilweise unterschiedliche Datengrundlagen verwendet. Daher ist es sinnvoll mehrere Nowcasts zu vergleichen, um die ganze Bandbreite an Schätzungen zu berücksichtigen. Außerdem kann es vorteilhaft sein, alle Nowcasts zu einem einzigen zu kombinieren, um eine robustere Schätzung zu erhalten. Dies hat sich bereits in anderen Anwendungsgebieten, wie beispielsweise der Wettervorhersage, bewährt.
 </p>
 </details>
 
 <details><summary>Warum ist es wichtig, Unsicherheitsintervalle mit anzugeben?</summary>
 <p>
-tba
+Kein Modell ist perfekt und jedem Modell liegen gewisse Annahmen zugrunde. Da man einer einzelnen Punktvorhersage nicht ansieht, wie verlässlich sie ist, macht es Sinn, die Unsicherheit zu quantifizieren und als Intervalle (bzw. Quantile) zu kommunizieren. Dies hilft beispielsweise bei der Risikoabschätzung, da es Worst-Case-Überlegungen ermöglicht.
 </p>
 </details>
 
@@ -60,13 +60,13 @@ tba
 
 <details><summary>Was zeigt die "Zeitreihe nach Erscheinen in RKI-Daten"?</summary>
 <p>
-tba
+Eine Alternative zum Nowcast der Hospitalisierungsinzidenz nach Meldedatum (Datum, an dem der erste positive Test einer Person an das lokale Gesundheitsamt gemeldet wurde; https://www.rki.de/SharedDocs/FAQ/NCOV2019/FAQ_Liste_Fallzahlen_Meldungen.html) ist es, Hospitalisierungszahlen nach ihrem Auftauchen im Datensatz des RKI zu aggregieren. Diese Zahlen ändern sich in den darauffolgenden Tagen nicht mehr, sodass Trends einfacher zu interpretieren sind.
 </p>
 </details>
 
 <details><summary>Was ist mit "nachträglich erstellten Nowcasts" gemeint?</summary>
 <p>
-tba
+Das Hauptziel dieses Projekts ist es, Nowcasts in Echtzeit zur Verfügung zu stellen. Um verschiedene Modellierungsansätze besser vergleichen zu können, sammeln wir aber auch Nowcasts, die rückwirkend erzeugt wurden, um zu sehen, wie diese in der Vergangenheit abgeschnitten hätten. Wichtig hierbei ist es, das tatsächlich nur Daten in das Modell einfließen, die zum jeweiligen Zeitpunkt verfügbar waren.
 </p>
 </details>
 
