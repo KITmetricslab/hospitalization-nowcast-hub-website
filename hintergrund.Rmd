@@ -16,7 +16,7 @@ tba
 </p>
 </details>
 
-<details><summary>Was ist die 7-Tages Hospitalisierungsinzidenz??</summary>
+<details><summary>Was ist die 7-Tages Hospitalisierungsinzidenz?</summary>
 <p>
 tba
 </p>

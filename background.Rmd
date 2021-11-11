@@ -12,61 +12,61 @@ title: "Background"
 
 <details><summary>What is the goal of this platform?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>What is the 7-day hospitalization incidence?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>Why are the reported values for the most recent days unreliable and why is that a problem?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>What does nowcasting mean and how should nowcasts be interpreted?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>Why are several different nowcasts shown? What is an ensemble nowcast?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>Why is it important to provide uncertainty intervals?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>What are possible difficulties and weaknesses? When are results to be interpreted with special care?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>Why are nowcasts for the current and previous day not shown by default?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>What does the "time series by appearance in RKI data" show?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
 <details><summary>What is meant by "retrospective nowcasts"?</summary>
 <p>
-Bla
+tba
 </p>
 </details>
 
