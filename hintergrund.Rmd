@@ -25,7 +25,7 @@ p {
 </p>
 </details>
 
-<details><summary>Was ist die 7-Tages Hospitalisierungsinzidenz?</summary>
+<details><summary>Was ist die 7-Tage-Hospitalisierungsinzidenz?</summary>
 <p>
 *Die heutige 7-Tage-Hospitalisierungsinzidenz ist die Anzahl an hospitalisierten COVID-19 Fällen (absolut oder pro 100.000 Einwohner) deren Meldedatum, also das Datum an dem das lokale Gesundheitsamt die zugehörige COVID-19 Infektion elektronisch erfasst hat, in den 7 vorangegangenen Tagen liegt. Es handelt sich also* nicht *um die Zahl der neuen Hospitalisierungen in den letzten 7 Tagen. Auch berücksichtigt die 7-Tage-Hospitalisierungsinzidenz nicht, ob der Hospitalisierungsgrund COVID-19 oder ein anderer ist.*
 </p>
