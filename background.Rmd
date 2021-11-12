@@ -78,7 +78,7 @@ This platform is run by members of the [Chair of Statistics and Econometrics](ht
 
 - [Institute of Stochastics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/)
 - [Statistical Consulting Unit (StaBLab), LMU München](https://corona.stat.uni-muenchen.de/)
-- [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en)
+- [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en)
 
 Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) of the Robert Koch Institute.
 
@@ -139,5 +139,5 @@ We are planning to compare the different nowcasting methods in a prospective eva
 If you find this platform interesting you may also want to check out:
 
 - [Nowcasting of case numbers and the effective reproductive number](https://corona.stat.uni-muenchen.de/nowcast/) by the CODAG group at LMU Munich.
-- The [European](https://covid19forecasthub.eu/), [US](https://covid19forecasthub.org/) and [German/Polish](kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hubs on short-term forecasts of cases and deaths (one through four weeks ahead).
+- The [European](https://covid19forecasthub.eu/), [US](https://covid19forecasthub.org/) and [German/Polish](https://kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hubs on short-term forecasts of cases and deaths (one through four weeks ahead).
 - The [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/) on longer-term scenario projections.

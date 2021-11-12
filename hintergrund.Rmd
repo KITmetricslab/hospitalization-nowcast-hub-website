@@ -110,13 +110,11 @@ Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](
 
 <details><summary>*ILM-prop* (TU Ilmenau)</summary>
 <p>
-Diese Nowcasts verwenden die in der Vergangenheit beobachteten an der 7-Tage-Inzidenz der COVID-19 Fällen anteiligen 7-Tage-Hospitalisierungsinzidenz nach einer, zwei usw. Wochen. 
-Von der heute bekannten 7-Tage-Inzidenz werden dann diese Anteile berechnet und aufsummiert um die finale Anzahl an 7-Tage-Hospitalisierungen vorherzusagen.
-Die Unsicherheit wird durch Anwendung der Methode auf vergangene Zeitpunkte quantifiziert, wobei eine Log-Normalverteilung (Altersgruppen) beziehungsweise Normalverteilung (Summe über alle Altersgruppen) für die Vorhersagefehler angesetzt wird.
+*Diese Nowcasts verwenden die in der Vergangenheit beobachteten an der 7-Tage-Inzidenz der COVID-19 Fällen anteiligen 7-Tage-Hospitalisierungsinzidenz nach einer, zwei usw. Wochen. Von der heute bekannten 7-Tage-Inzidenz werden dann diese Anteile berechnet und aufsummiert um die finale Anzahl an 7-Tage-Hospitalisierungen vorherzusagen. Die Unsicherheit wird durch Anwendung der Methode auf vergangene Zeitpunkte quantifiziert, wobei eine Log-Normalverteilung (Altersgruppen) beziehungsweise Normalverteilung (Summe über alle Altersgruppen) für die Vorhersagefehler angesetzt wird.*
 </p>
 
 <p>
-Die Hauptannahme dieses Verfahrens ist, dass sich der Anteil von Hospitalisierungen an der 7-Tage-Inzidenz und die Verzüge von Meldedatum des Falls bis dieser in den RKI-Daten erscheint nur langsam ändert. 
+*Die Hauptannahme dieses Verfahrens ist, dass sich der Anteil von Hospitalisierungen an der 7-Tage-Inzidenz und die Verzüge von Meldedatum des Falls bis dieser in den RKI-Daten erscheint nur langsam ändert.*
 </p>
 </details>
 
