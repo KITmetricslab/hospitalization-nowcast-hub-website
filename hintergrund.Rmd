@@ -81,13 +81,13 @@ Für den heutigen und gestrigen Tag werden besonders viele Fälle nachgemeldet. 
 
 <details><summary>Was zeigt die "Zeitreihe nach Erscheinen in RKI-Daten"?</summary>
 <blockquote>
-Eine weitere Alternative zum Nowcasting besteht darin, für jedes Meldedatum die 7-Tage-Hospitalisierungsinzidenz gemäß des Datenstandes am jeweiligen Datum zu zeigen. Hierdurch sind alle gezeigten Werte ähnlich unvollständig und somit besser über die Zeit hinweg vergleichbar. Ein Nachtile dieser Herangehensweise ist, dass nur ein Teil der bereits verfügbaren Information genutzt wird.
+Eine Alternative zum Nowcast der Hospitalisierungsinzidenz nach Meldedatum (also dem Datum, an dem die Infektion im lokale Gesundheitsamt elektronisch erfasst wurde, siehe oben) ist es, Hospitalisierungszahlen nach dem Zeitpunkt ihres Auftauchens im Datensatz des RKI zu aggregieren. Diese Zahlen ändern sich in den darauffolgenden Tagen nicht mehr, sodass Trends einfacher zu interpretieren sind. Die resultierende Kurve ist gegenüber der 7-Tages-Inzidenz nach Meldedatum in der Regel nach rechts verschoben, da es oft eine Verzögerung zwischen dem Meldedatum und dem Auftauchen einer Hospitalisierung in den Daten gibt.
 </blockquote>
 </details>
 
 <details><summary>Was zeigt die "Zeitreihe eingefrorener Werte"?</summary>
 <blockquote>
-Eine weitere Alternative zum Nowcast der Hospitalisierungsinzidenz nach Meldedatum (also dem Datum, an dem die Infektion im lokale Gesundheitsamt elektronisch erfasst wurde, siehe oben) ist es, Hospitalisierungszahlen nach dem Zeitpunkt ihres Auftauchens im Datensatz des RKI zu aggregieren. Diese Zahlen ändern sich in den darauffolgenden Tagen nicht mehr, sodass Trends einfacher zu interpretieren sind. Die resultierende Kurve ist gegenüber der 7-Tages-Inzidenz nach Meldedatum in der Regel nach rechts verschoben, da es eine Verzögerung zwischen dem Meldedatum und dem Auftauchen einer Hospitalisierung in den Daten gibt.
+Eine weitere Alternative zum Nowcasting besteht darin, für jedes Meldedatum die 7-Tage-Hospitalisierungsinzidenz gemäß des Datenstandes am jeweiligen Datum zu zeigen. Hierdurch sind alle gezeigten Werte ähnlich unvollständig und somit besser über die Zeit hinweg vergleichbar. Ein Nachteil dieser Herangehensweise ist, dass nur ein Teil der bereits verfügbaren Information genutzt wird.
 </blockquote>
 </details>
 
