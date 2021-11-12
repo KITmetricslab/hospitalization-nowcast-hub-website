@@ -74,13 +74,13 @@ tba
 
 ### Contributing research groups
 
-This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php) at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/de/forschung/cst/) at Heidelberg Institute for Theoretical Studies. Several other independent research groups contribute nowcasts:
+This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php){target="_blank"} at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/de/forschung/cst/){target="_blank"} at Heidelberg Institute for Theoretical Studies. Several other independent research groups contribute nowcasts:
 
-- [Institute of Stochastics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/)
-- [Statistical Consulting Unit (StaBLab), LMU München](https://corona.stat.uni-muenchen.de/)
-- [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en)
+- [Institute of Stochastics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
+- [Statistical Consulting Unit (StaBLab), LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
+- [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en){target="_blank"}
 
-Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) of the Robert Koch Institute.
+Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} of the Robert Koch Institute.
 
 <br>
 
@@ -104,7 +104,7 @@ tba
 
 <details><summary>*LMU_StaBLab-GAM_nowcast* (LMU München)</summary>
 <p>
-*Nowcasts are based on a generalized additive model and the sequential multinomial structure of the time delay. The model is a slightly adapted version of the method by [Schneble et al. (2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000143) for nowcasting of fatal infections.*
+*Nowcasts are based on a generalized additive model and the sequential multinomial structure of the time delay. The model is a slightly adapted version of the method by [Schneble et al. (2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000143){target="_blank"} for nowcasting of fatal infections.*
 </p>
 </details>
 
@@ -113,13 +113,13 @@ tba
 
 <details><summary>*RIVM-KEW* (RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande)</summary>
 <p>
-*This model is a simplified version of the model presented by van de Kassteele, Eilers and Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050)). The reported counts by date and delay are described by a negative binomial distribution. The expected values are modelled by a two-dimensional P-spline surface and other covariates. This surface is extrapolated for all dates and delays outside the reporting triangle. The nowcast is obtained by summing all counts over the delays by date. Prediction intervals are obtained by Monte Carlo simulation from the predictive distribution. This simplified model is without the calender time x delay interaction, the unimodality and boundary constraints. Model fitting is done efficiently using the [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html) package in R.*
+*This model is a simplified version of the model presented by van de Kassteele, Eilers and Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050){target="_blank"}). The reported counts by date and delay are described by a negative binomial distribution. The expected values are modelled by a two-dimensional P-spline surface and other covariates. This surface is extrapolated for all dates and delays outside the reporting triangle. The nowcast is obtained by summing all counts over the delays by date. Prediction intervals are obtained by Monte Carlo simulation from the predictive distribution. This simplified model is without the calender time x delay interaction, the unimodality and boundary constraints. Model fitting is done efficiently using the [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html){target="_blank"} package in R.*
 </p>
 </details>
 
 <details><summary>*RKI-weekly_report* (Robert Koch Institut)</summary>
 <p>
-*These nowcasts are taken from the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) (updated on Thursdays). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html).*
+*These nowcasts are taken from the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} (updated on Thursdays). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.*
 </p>
 <p>
 *As the RKI nowcasts are currently only communiated via the weekly reports, we read out the numbers from the respective figures, which may lead to minor imprecisions.*
@@ -130,7 +130,7 @@ tba
 
 ### Evaluation study
 
-We are planning to compare the different nowcasting methods in a prospective evaluation study. To this end we will soon deposit a public study protocol (similar to the [protocol](https://osf.io/zkdvb/) of a recent [study on short-term predictions](https://www.nature.com/articles/s41467-021-25207-0)).
+We are planning to compare the different nowcasting methods in a prospective evaluation study. To this end we will soon deposit a public study protocol (similar to the [protocol](https://osf.io/zkdvb/){target="_blank"} of a recent [study on short-term predictions](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
 
 <br>
 
@@ -138,6 +138,6 @@ We are planning to compare the different nowcasting methods in a prospective eva
 
 If you find this platform interesting you may also want to check out:
 
-- [Nowcasting of case numbers and the effective reproductive number](https://corona.stat.uni-muenchen.de/nowcast/) by the CODAG group at LMU Munich.
-- The [European](https://covid19forecasthub.eu/), [US](https://covid19forecasthub.org/) and [German/Polish](https://kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hubs on short-term forecasts of cases and deaths (one through four weeks ahead).
-- The [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/) on longer-term scenario projections.
+- [Nowcasting of case numbers and the effective reproductive number](https://corona.stat.uni-muenchen.de/nowcast/){target="_blank"} by the CODAG group at LMU Munich.
+- The [European](https://covid19forecasthub.eu/){target="_blank"}, [US](https://covid19forecasthub.org/){target="_blank"} and [German/Polish](https://kitmetricslab.github.io/forecasthub/){target="_blank"} COVID-19 Forecast Hubs on short-term forecasts of cases and deaths (one through four weeks ahead).
+- The [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/){target="_blank"} on longer-term scenario projections.

@@ -30,7 +30,7 @@ p {
 *Die heutige 7-Tage-Hospitalisierungsinzidenz ist die Anzahl an hospitalisierten COVID-19 Fällen (absolut oder pro 100.000 Einwohner) deren Meldedatum, also das Datum an dem das lokale Gesundheitsamt die zugehörige COVID-19 Infektion elektronisch erfasst hat, in den 7 vorangegangenen Tagen liegt. Es handelt sich also* nicht *um die Zahl der neuen Hospitalisierungen in den letzten 7 Tagen. Auch berücksichtigt die 7-Tage-Hospitalisierungsinzidenz nicht, ob der Hospitalisierungsgrund COVID-19 oder ein anderer ist.*
 </p>
 
-<p> *Weitere Informationen sowie die aktuellen und vergangenen 7-Tage-Hospitalisierungsinzidenzen finden sich auf der [Github Seite des Robert Koch-Instituts](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland).*
+<p> *Weitere Informationen sowie die aktuellen und vergangenen 7-Tage-Hospitalisierungsinzidenzen finden sich auf der [Github Seite des Robert Koch-Instituts](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.*
 </p>
 </details>
 
@@ -39,7 +39,7 @@ p {
 *Zwischen dem Meldedatum und dem Datum, an welchem ein hospitalisierter Fall vom Robert Koch-Institut in die 7-Tage-Hospitalisierungsinzidenz aufgenommen wird, können mehrere Tage vergehen. Hier spielen mehrere Faktoren eine Rolle. Erstens kann es sein, dass die Person am Meldedatum nicht in einem Zustand ist, der Hospitalisierung erfordert, jedoch später hospitalisiert werden muss. In diesem Fall wird rückwirkend die Zahl der Hospitalisierungen für das entsprechende Meldedatum um eins erhöht. Zweitens kann es Meldeverzüge zwischen dem tatsächlichen Hospitalisierungsdatum und der Erfassung der Hospitalisieurngen in den Daten des RKI geben.*
 </p>
 <p>
-*Deswegen ändern sich die täglichen, nach Meldedatum ausgewiesenen, Hospitalisierungen nachträglich. Die meisten Nachtragungen erfolgen innerhalb von wenigen Tagen, sodass vor allem die Werte der jeweils letzten Tage betroffen sind. Diese unterschätzen die tatsächlichen Hospitalisierungen oft deutlich (siehe z.B. [dieser Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Hospitalisierungsrate-zeigt-nur-noch-die-Haelfte-der-Corona-Patienten,hospitalisierungsrate102.html)). Das macht es sehr schwierig, aktuelle Tendenzen aus der rohen 7-Tage-Hospitalisierungsinzidenz abzulesen. Insbesondere kann der Eindruck einer fallenden Hospitalisierungsinzidenz entstehen, selbst wenn diese in Wirklichkeit steigt.*
+*Deswegen ändern sich die täglichen, nach Meldedatum ausgewiesenen, Hospitalisierungen nachträglich. Die meisten Nachtragungen erfolgen innerhalb von wenigen Tagen, sodass vor allem die Werte der jeweils letzten Tage betroffen sind. Diese unterschätzen die tatsächlichen Hospitalisierungen oft deutlich (siehe z.B. [dieser Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Hospitalisierungsrate-zeigt-nur-noch-die-Haelfte-der-Corona-Patienten,hospitalisierungsrate102.html){target="_blank"}). Das macht es sehr schwierig, aktuelle Tendenzen aus der rohen 7-Tage-Hospitalisierungsinzidenz abzulesen. Insbesondere kann der Eindruck einer fallenden Hospitalisierungsinzidenz entstehen, selbst wenn diese in Wirklichkeit steigt.*
 </p>
 </details>
 
@@ -57,7 +57,7 @@ p {
 
 <details><summary>Wieso werden mehrere verschiedene Nowcasts gezeigt? Was ist ein Ensemble-Nowcast?</summary>
 <p>
-*Bei der Erstellung von Nowcasts wird stets eine Reihe von Annahmen getroffen. Zudem können unterschiedliche Modelle unterschiedliche zusätzliche Datenquellen mit einbeziehen. Daher können sich die Ergebnisse verschiedener Verfahren unterscheiden, und es ist es sinnvoll, mehrere Nowcasts zu vergleichen und die Bandbreite der Vorhersagen zu berücksichtigen. Zudem kann es vorteilhaft sein, verschiedene Nowcasts in einem sogenannten Ensemble-Nowcast zusammenzuführen, um eine robustere Schätzung zu erhalten. Dies hat sich beispielsweise in der [Wettervorhersage](https://www.science.org/doi/abs/10.1126/science.1115255), aber auch in [epidemiologischen Anwendungen](https://www.medrxiv.org/content/10.1101/2021.02.03.21250974v1.full) bewährt.*
+*Bei der Erstellung von Nowcasts wird stets eine Reihe von Annahmen getroffen. Zudem können unterschiedliche Modelle unterschiedliche zusätzliche Datenquellen mit einbeziehen. Daher können sich die Ergebnisse verschiedener Verfahren unterscheiden, und es ist es sinnvoll, mehrere Nowcasts zu vergleichen und die Bandbreite der Vorhersagen zu berücksichtigen. Zudem kann es vorteilhaft sein, verschiedene Nowcasts in einem sogenannten Ensemble-Nowcast zusammenzuführen, um eine robustere Schätzung zu erhalten. Dies hat sich beispielsweise in der [Wettervorhersage](https://www.science.org/doi/abs/10.1126/science.1115255){target="_blank"}, aber auch in [epidemiologischen Anwendungen](https://www.medrxiv.org/content/10.1101/2021.02.03.21250974v1.full){target="_blank"} bewährt.*
 </p>
 </details>
 
@@ -95,14 +95,14 @@ p {
 
 ### Beteiligte Forschungsgruppen
 
-Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php) am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Forschungsgruppen tragen Nowcasts bei:
+Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Forschungsgruppen tragen Nowcasts bei:
 
-- [Institut für Stochastik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/)
-- [Statistisches Beratungslabor, LMU München](https://corona.stat.uni-muenchen.de/)
-- [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en)
+- [Institut für Stochastik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
+- [Statistisches Beratungslabor, LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
+- [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en){target="_blank"}
 
 
-Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) des Robert Koch Instituts.
+Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} des Robert Koch Instituts.
 
 <br>
 
@@ -130,7 +130,7 @@ Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](
 
 <details><summary>*LMU_StaBLab-GAM_nowcast* (LMU München)</summary>
 <p>
-*Die Nowcasts beruhen auf einem generalisierten additiven Modell und der sequenziellen Multinomialstruktur der zeitlichen Verzögerungen. Das Modell ist eine geringfügig angepasste Version des Verfahrens von [Schneble et al. (2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000143) zum Nowcasting von tödlich verlaufenden Infektionen.*
+*Die Nowcasts beruhen auf einem generalisierten additiven Modell und der sequenziellen Multinomialstruktur der zeitlichen Verzögerungen. Das Modell ist eine geringfügig angepasste Version des Verfahrens von [Schneble et al. (2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000143){target="_blank"} zum Nowcasting von tödlich verlaufenden Infektionen.*
 </p>
 </details>
 
@@ -139,13 +139,13 @@ Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](
 
 <details><summary>*RIVM-KEW* (RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande)</summary>
 <p>
-*Dieses Modell ist eine vereinfachte Version des Verfahrens von van de Kassteele, Eilers und Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050)). Für die berichteten Zählwerte pro Meldedatum und Verzögerung wird eine negative Binomialverteilung angenommen. Die erwarteten Werte werden mittels einer zweidimensionalen P-Spline-Oberfläche und weiteren Kovariablen modelliert. Diese Oberfläche wird für die noch nicht beobachteten Kombinationen von Datums- und Verzögerungswert extrapoliert. Der Nowcast für ein Meldedatum entspricht dann der Summe über die entsprechenden beobachteten und extrapolierten Zählwerte pro Verzögerungsdauer. Vorhersageintervalle werden per Monte-Carlo-Simulation aus der entsprechenden prädiktiven Verteilung generiert. Die vereinfachte Version des Modells enthält keine Interaktionsterme für Kalenderzeit und Verzögerung und keine Unimodalitäts- oder Boundary-Restriktionen. Das Modell wird mittels des R-Pakets [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html) angepasst.*
+*Dieses Modell ist eine vereinfachte Version des Verfahrens von van de Kassteele, Eilers und Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050){target="_blank"}). Für die berichteten Zählwerte pro Meldedatum und Verzögerung wird eine negative Binomialverteilung angenommen. Die erwarteten Werte werden mittels einer zweidimensionalen P-Spline-Oberfläche und weiteren Kovariablen modelliert. Diese Oberfläche wird für die noch nicht beobachteten Kombinationen von Datums- und Verzögerungswert extrapoliert. Der Nowcast für ein Meldedatum entspricht dann der Summe über die entsprechenden beobachteten und extrapolierten Zählwerte pro Verzögerungsdauer. Vorhersageintervalle werden per Monte-Carlo-Simulation aus der entsprechenden prädiktiven Verteilung generiert. Die vereinfachte Version des Modells enthält keine Interaktionsterme für Kalenderzeit und Verzögerung und keine Unimodalitäts- oder Boundary-Restriktionen. Das Modell wird mittels des R-Pakets [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html){target="_blank"} angepasst.*
 </p>
 </details>
 
 <details><summary>*RKI-weekly_report* (Robert Koch Institut)</summary>
 <p>
-*Hierbei handelt es sich um Schätzungen, die jeweils Donnerstags in den [Wochenberichten des Robert Koch Instituts](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html) veröffentlicht werden. Diese basieren auf einer modifizierten Variante der [Nowcastingberechnung zur 7-Tage-Inzidenz](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html).*
+*Hierbei handelt es sich um Schätzungen, die jeweils Donnerstags in den [Wochenberichten des Robert Koch Instituts](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} veröffentlicht werden. Diese basieren auf einer modifizierten Variante der [Nowcastingberechnung zur 7-Tage-Inzidenz](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.*
 </p>
 <p>
 *Da die Nowcast-Schätzung des RKI derzeit nur über den Wochenbericht kommuniziert wird wird sie für diese Plattform aus der jeweiligen Grafik ausgelesen, was zu kleineren Ungenauigkeiten führen kann.*
@@ -156,12 +156,12 @@ Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](
 
 ### Evaluationsstudie
 
-Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluationsstudie systematisch zu vergleichen. Hierfür werden wir in Kürze ein öffentliches Studienprotokoll hinterlegen (ähnlich dem [Protokoll](https://osf.io/zkdvb/) zu einer früheren [Studie über Kurzzeitvorhersagen](https://www.nature.com/articles/s41467-021-25207-0)).
+Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluationsstudie systematisch zu vergleichen. Hierfür werden wir in Kürze ein öffentliches Studienprotokoll hinterlegen (ähnlich dem [Protokoll](https://osf.io/zkdvb/){target="_blank"} zu einer früheren [Studie über Kurzzeitvorhersagen](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
 
 <br>
 
 ### Verwandte Projekte
 
-- Der [europäische](https://covid19forecasthub.eu/), [US-amerikanische](https://covid19forecasthub.org/) and [deutsch/polnische](https://kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
-- [Nowcasts für Fallzahlen und die effektive Reproduktionszahl](https://corona.stat.uni-muenchen.de/nowcast/) der CODAG Gruppe an der LMU München.
-- Der [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/) mit längerfristigen Szenario-Projektionen.
+- Der [europäische](https://covid19forecasthub.eu/){target="_blank"}, [US-amerikanische](https://covid19forecasthub.org/){target="_blank"} und [deutsch/polnische](https://kitmetricslab.github.io/forecasthub/){target="_blank"} COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
+- [Nowcasts für Fallzahlen und die effektive Reproduktionszahl](https://corona.stat.uni-muenchen.de/nowcast/){target="_blank"} der CODAG Gruppe an der LMU München.
+- Der [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/){target="_blank"} mit längerfristigen Szenario-Projektionen.
