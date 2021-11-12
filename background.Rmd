@@ -2,6 +2,17 @@
 title: "Background"
 ---
 
+<style>
+p {
+  text-align: justify;
+}
+
+blockquote {
+  text-align: justify;
+  font-size: 10pt;
+}
+</style>
+
 <br>
 
 #### This page is currently under construction.
@@ -87,48 +98,42 @@ Moreover we display the most current nowcasts from the [weekly reports](https://
 ### Methods description
 
 <details><summary>*ILM-prop* (TU Ilmenau)</summary>
-<p>
-*These Nowcasts are based on the proportion of the 7-day incidence of COVID-19 cases that appear in the hospitalization incidence after one, two etc. weeks. This model then multiplies todays known 7-day incidence by these weekly proportions and predicts todays 7-day hospitalization incidence by summing these up. 
-The uncertainty is based on a log-normal (within age-groups) or normal (sum over all age groups) distribution where the dispersion is estimated based on retrospective application of the model.*
-</p>
-
-<p>
-*The model assumes that the proportion of hospitalization within one, two etc. weeks and associated delays does not change drastically.*
-</p>
+<blockquote>
+These Nowcasts are based on the proportion of the 7-day incidence of COVID-19 cases that appear in the hospitalization incidence after one, two etc. weeks. This model then multiplies todays known 7-day incidence by these weekly proportions and predicts todays 7-day hospitalization incidence by summing these up. 
+The uncertainty is based on a log-normal (within age-groups) or normal (sum over all age groups) distribution where the dispersion is estimated based on retrospective application of the model.
+</blockquote>
 </details>
 
 <details><summary>*KIT-simple_nowcast* (Karlsruher Institut für Technologie)</summary>
-<p>
-*Nowcasting is based on a simple estimation of the distribution of delays between the Meldedatum and appearance in the RKI data set (based on the last 50 days). From these, multiplication factors are derived and used for an upward correction of incomplete observations. To assess the nowcast uncertainty, the same corrected values are generated for past time points (based on the information available at the respective time) and compared to the subsequently observed values. To this end we assume a negative binomial distribution, where the dispersion parameter is a function of the time difference between Meldedatum and date of nowcast. Estimation of the dispersion parameter ist done via a maximum likelihood approach.*
-</p>
-<p>
-*This method is purposefully kept simple. The central assumption is that delay distributions are temporally stable. Weekday effects and recent developments in case numbers are not accounted for.*
-</p>
+<blockquote>
+Nowcasting is based on a simple estimation of the distribution of delays between the Meldedatum and appearance in the RKI data set (based on the last 50 days). From these, multiplication factors are derived and used for an upward correction of incomplete observations. To assess the nowcast uncertainty, the same corrected values are generated for past time points (based on the information available at the respective time) and compared to the subsequently observed values. To this end we assume a negative binomial distribution, where the dispersion parameter is a function of the time difference between Meldedatum and date of nowcast. Estimation of the dispersion parameter ist done via a maximum likelihood approach.
+<br>
+This method is purposefully kept simple. The central assumption is that delay distributions are temporally stable. Weekday effects and recent developments in case numbers are not accounted for.
+</blockquote>
 </details>
 
 
 <details><summary>*LMU_StaBLab-GAM_nowcast* (LMU München)</summary>
-<p>
-*Nowcasts are based on a generalized additive model and the sequential multinomial structure of the time delay. The model is a slightly adapted version of the method by [Schneble et al. (2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000143){target="_blank"} for nowcasting of fatal infections.*
-</p>
+<blockquote>
+Nowcasts are based on a generalized additive model and the sequential multinomial structure of the time delay. The model is a slightly adapted version of the method by [Schneble et al. (2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000143){target="_blank"} for nowcasting of fatal infections.
+</blockquote>
 </details>
 
 
 
 
 <details><summary>*RIVM-KEW* (RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande)</summary>
-<p>
-*This model is a simplified version of the model presented by van de Kassteele, Eilers and Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050){target="_blank"}). The reported counts by date and delay are described by a negative binomial distribution. The expected values are modelled by a two-dimensional P-spline surface and other covariates. This surface is extrapolated for all dates and delays outside the reporting triangle. The nowcast is obtained by summing all counts over the delays by date. Prediction intervals are obtained by Monte Carlo simulation from the predictive distribution. This simplified model is without the calender time x delay interaction, the unimodality and boundary constraints. Model fitting is done efficiently using the [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html){target="_blank"} package in R.*
-</p>
+<blockquote>
+This model is a simplified version of the model presented by van de Kassteele, Eilers and Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050){target="_blank"}). The reported counts by date and delay are described by a negative binomial distribution. The expected values are modelled by a two-dimensional P-spline surface and other covariates. This surface is extrapolated for all dates and delays outside the reporting triangle. The nowcast is obtained by summing all counts over the delays by date. Prediction intervals are obtained by Monte Carlo simulation from the predictive distribution. This simplified model is without the calender time x delay interaction, the unimodality and boundary constraints. Model fitting is done efficiently using the [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html){target="_blank"} package in R.
+</blockquote>
 </details>
 
 <details><summary>*RKI-weekly_report* (Robert Koch Institut)</summary>
-<p>
-*These nowcasts are taken from the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} (updated on Thursdays). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.*
-</p>
-<p>
-*As the RKI nowcasts are currently only communiated via the weekly reports, we read out the numbers from the respective figures, which may lead to minor imprecisions.*
-</p>
+<blockquote>
+These nowcasts are taken from the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} (updated on Thursdays). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
+<br>
+As the RKI nowcasts are currently only communiated via the weekly reports, we read out the numbers from the respective figures, which may lead to minor imprecisions.
+</blockquote>
 </details>
 
 <br>
