@@ -162,6 +162,6 @@ Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluat
 
 ### Verwandte Projekte
 
-- Der [europäische](https://covid19forecasthub.eu/), [US-amerikanische](https://covid19forecasthub.org/) and [deutsch/polnische](kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
+- Der [europäische](https://covid19forecasthub.eu/), [US-amerikanische](https://covid19forecasthub.org/) and [deutsch/polnische](https://kitmetricslab.github.io/forecasthub/) COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
 - [Nowcasts für Fallzahlen und die effektive Reproduktionszahl](https://corona.stat.uni-muenchen.de/nowcast/) der CODAG Gruppe an der LMU München.
 - Der [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/) mit längerfristigen Szenario-Projektionen.
