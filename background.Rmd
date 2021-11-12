@@ -88,7 +88,12 @@ Moreover we display the most current nowcasts from the [weekly reports](https://
 
 <details><summary>*ILM-prop* (TU Ilmenau)</summary>
 <p>
-tba
+*These Nowcasts are based on the proportion of the 7-day incidence of COVID-19 cases that appear in the hospitalization incidence after one, two etc. weeks. This model then multiplies todays known 7-day incidence by these weekly proportions and predicts todays 7-day hospitalization incidence by summing these up. 
+The uncertainty is based on a log-normal (within age-groups) or normal (sum over all age groups) distribution where the dispersion is estimated based on retrospective application of the model.*
+</p>
+
+<p>
+*The model assumes that the proportion of hospitalization within one, two etc. weeks and associated delays does not change drastically.*
 </p>
 </details>
 
