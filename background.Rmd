@@ -22,63 +22,80 @@ blockquote {
 ### FAQ
 
 <details><summary>What is the goal of this platform?</summary>
-<p>
-tba
-</p>
+<blockquote>
+The main goal of this project is to estimate the 7-day hospitalization incidence for Germany and its states reliably and to assess recent trends based on incomplete data. The frequently referred to most recent values of the raw hospitalization incidence underestimate the true number of hospitalizations (see also answers to the other questions). Nowcasting corrections of these numbers allow for a better assessment of the current epidemic situation.
+<br>
+At the same time we have a scientific interest to compare different nowcasting methods and to assess whether the combination of different nowcasts yields more reliable results.
+</blockquote>
 </details>
 
 <details><summary>What is the 7-day hospitalization incidence?</summary>
-<p>
-tba
-</p>
+<blockquote>
+We follow the definition by Robert Koch Institute. Today's seven-day hospitalization incidence is the number of hospitalized cases of COVID-19 (in absolute numbers or per 100.000 population) whose *Meldedatum*, i.e. the date when the respective infection was electronically recorded at the local health authorities was in the 7 preceding days. It is thus *not* equivalent to the number of new hospitalizations during the last 7 days. Also, the 7-day hospitalization incidence does not take into account whether the reason of hospitalization was COVID-19 or not.
+<br>
+Further information on the 7-day hospitalization incidence (in German) are available on the [GitHub site of Robert Koch-Institute](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
+</blockquote>
 </details>
 
 <details><summary>Why are the reported values for the most recent days unreliable and why is that a problem?</summary>
-<p>
-tba
-</p>
+<blockquote>
+The *Meldedatum* and the date when a hospitalization first appears the data set at Robert Koch Institut can be several days or even weeks apart. Several aspects play a role here. Firstly, an infected person may not be in a state which requires hospitalization on the *Meldedatum*, but reach such a state at a later point. In this case, the number of hospitalizations for the respective *Meldedatum* will be retrospectively increased by one. Secondly, there can be reporting delays between the actual date of hospitalization and the appearance of the hospitalization in the RKI data.
+<br>
+The daily values of the hospitalization incidence aggregated by *Meldedatum* are thus usually corrected upwards during the following days and weeks. Most additions occur within a few days, so that the values for the last few days are most strongly affected. Oftentimes they considerably underestimate the true number of hospitalizations (see e.g. [this news item](https://www.ndr.de/nachrichten/info/Hospitalisierungsrate-zeigt-nur-noch-die-Haelfte-der-Corona-Patienten,hospitalisierungsrate102.html){target="_blank"} by the public broadcaster NDR or [CODAG-Report Nr. 21](https://www.covid19.statistik.uni-muenchen.de/pdfs/codag-bericht-21.pdf){target="_blank"} by LMU Munich; both in German). In particular, preliminary data can create the impression of a decreasing hospitalization incidence even if it is actually on the rise.
+</blockquote>
 </details>
 
 <details><summary>What does nowcasting mean and how should nowcasts be interpreted?</summary>
-<p>
-tba
-</p>
+<blockquote>
+Nowcasting is a statistical tool which, based on preliminary data, estimates which value a given quantity will take once measurements are complete. In our application we estimate how many hospitalizations will be reported in total for a given *Meldedatum*. To this end, information on the hospitalizations already reported up to the current date and data on past reporting delays are used.
+<br>
+The term nowcasting typically refers to events which have already occurred, but have not been measured or reported completely. For instance, nowcasting methods can be used to estimate how many cases of COVID-19 have been detected on a given day before these information have been aggregated into a central data set. This is not exactly the case for the hospitalization incidence as it is possible that hospitalizations linked to a given *Meldedatum* have not even occurred yet at the time of nowcasting. We nonetheless use the term *nowcasting* as it has become common for this type of analysis.
+<br>
+The nowcasts presented here should be interpreted as probability statements. An exact estimation of the true number of hospitalizations is not feasible and nowcasts can merely provide a range of probable values (see below).
+</blockquote>
 </details>
 
 <details><summary>Why are several different nowcasts shown? What is an ensemble nowcast?</summary>
-<p>
-tba
-</p>
+<blockquote>
+Nowcasts are always based on a number of assumptions. Moeover, different models may include different additional data sources. Therefore, results based on different approaches often vary, and it is reasonable to compare different nowcasts to get an idea of the range of predictions. Moreover it can be helpful to combine several nowcasts into a so-called ensemble nowcast to achieve a more robust estimation. This approach has shown benefits for instance in [weather forecasting](https://www.science.org/doi/abs/10.1126/science.1115255){target="_blank"}, but also in [epidmimological applications](https://www.medrxiv.org/content/10.1101/2021.02.03.21250974v2){target="_blank"}.
+</blockquote>
 </details>
 
 <details><summary>Why is it important to provide uncertainty intervals?</summary>
-<p>
-tba
-</p>
+<blockquote>
+No model is perfect and the exact number of hospitalizations for a given *Meldedatum* canot be predicted exactly. The nowcasts displayed here therefore explicitly quantify their own uncertainty, i.e. they state how reliable they consider their own estimation. This is done via intervals which are supposed to contain the true value with a given probability (50% or 95%).
+</blockquote>
 </details>
 
 <details><summary>What are possible difficulties and weaknesses? When are results to be interpreted with special care?</summary>
-<p>
-tba
-</p>
+<blockquote>
+The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer.
+</blockquote>
 </details>
 
 <details><summary>Why are nowcasts for the current and previous day not shown by default?</summary>
-<p>
-tba
-</p>
+<blockquote>
+For the last two days a particularly large number of additional reports must be expected. Therefore, nowcasts for these days are less reliable than for days which are further in the past. For this reason we do not show nowcasts for the last two days by default and recomend to interpret them with special care.
+</blockquote>
 </details>
 
 <details><summary>What does the "time series by appearance in RKI data" show?</summary>
-<p>
-tba
-</p>
+<blockquote>
+An alternative to nowcasting the hospitalization incidence by *Meldedatum* (i.e. the day when the respective infection was electronically recorded by the local health authority, see above) is to aggregate hospitalizations by the day when they first appeared in the RKI data set. These numbers do not change over the following days, meaning that trends are more straightforward to interpret. Owing to reporting delays, the resulting curve is typically shifted to the right compared to the seven-day hospitalization incidence by *Meldedatum*.
+</blockquote>
+</details>
+
+
+<details><summary>What does the "time series of frozen values" show?</summary>
+<blockquote>
+Another alternative to nowcasting is to show the 7-day hospitalization incidence for each *Meldedatum* based on the data version from the respective date. This way, all shown values will be similarly incomplete and more comparable over time. A downside of this approach is that it only exploits part of the information already available.
+</blockquote>
 </details>
 
 <details><summary>What is meant by "retrospective nowcasts"?</summary>
-<p>
-tba
-</p>
+<blockquote>
+The main goal of this project is to provide nowcasts in real time to allow for an improved assessment of the current situation. However, in order to systematically compare different modelling approaches, we also collect nowcast which have been created retrospectively and evaluate how they would have performed in the past. For a fair comparison it is crucial that models only use data which would already have been available at the respective time of nowcasting.
+</blockquote>
 </details>
 
 <br>
