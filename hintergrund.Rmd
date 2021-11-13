@@ -162,8 +162,9 @@ Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluat
 
 <br>
 
-### Verwandte Projekte
+### Verwandte Projekte und Analysen
 
 - Der [europäische](https://covid19forecasthub.eu/){target="_blank"}, [US-amerikanische](https://covid19forecasthub.org/){target="_blank"} und [deutsch/polnische](https://kitmetricslab.github.io/forecasthub/){target="_blank"} COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
-- [Nowcasts für Fallzahlen und die effektive Reproduktionszahl](https://corona.stat.uni-muenchen.de/nowcast/){target="_blank"} der CODAG Gruppe an der LMU München.
+- [Nowcasts für Fallzahlen und die effektive Reproduktionszahl in Deutschland](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"} des Robert Koch Instituts.
+- [Nowcasts für Fallzahlen und die effektive Reproduktionszahl in Bayern](https://corona.stat.uni-muenchen.de/nowcast/){target="_blank"} der CODAG Gruppe an der LMU München.
 - Der [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/){target="_blank"} mit längerfristigen Szenario-Projektionen.

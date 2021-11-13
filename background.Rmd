@@ -161,10 +161,11 @@ We are planning to compare the different nowcasting methods in a prospective eva
 
 <br>
 
-### Related projects
+### Related projects and analyses
 
 If you find this platform interesting you may also want to check out:
 
-- [Nowcasting of case numbers and the effective reproductive number](https://corona.stat.uni-muenchen.de/nowcast/){target="_blank"} by the CODAG group at LMU Munich.
 - The [European](https://covid19forecasthub.eu/){target="_blank"}, [US](https://covid19forecasthub.org/){target="_blank"} and [German/Polish](https://kitmetricslab.github.io/forecasthub/){target="_blank"} COVID-19 Forecast Hubs on short-term forecasts of cases and deaths (one through four weeks ahead).
+- [Nowcasting of case numbers and the effective reproductive number in Germany](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"} by Robert Koch Institute.
+- [Nowcasting of case numbers and the effective reproductive number in Bavaria](https://corona.stat.uni-muenchen.de/nowcast/){target="_blank"} by the CODAG group at LMU Munich.
 - The [US Scenario Modelling Hub](https://covid19scenariomodelinghub.org/){target="_blank"} on longer-term scenario projections.
