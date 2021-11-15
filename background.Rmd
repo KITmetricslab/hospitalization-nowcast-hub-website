@@ -73,6 +73,12 @@ The central assumption on which most nowcasts are built is that the delays betwe
 </blockquote>
 </details>
 
+<details><summary>How often are nowcasts updated?</summary>
+<blockquote>
+Nowcasts are updated on working days (Monday through Friday). As long as a team have not updated their nowcast yet, their nowcast from the previous day (or the most recent nowcasts which is not older than seven days) is displayed. For instance, the RKI nowcast is currently only made available on Thursdays, when a new weekly report appears. We always display this nowcast until a newer version becomes available.
+</blockquote>
+</details>
+
 <details><summary>Why are nowcasts for the current and previous day not shown by default?</summary>
 <blockquote>
 For the last two days a particularly large number of additional reports must be expected. Therefore, nowcasts for these days are less reliable than for days which are further in the past. For this reason we do not show nowcasts for the last two days by default and recomend to interpret them with special care.

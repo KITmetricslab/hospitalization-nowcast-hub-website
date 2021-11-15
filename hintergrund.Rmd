@@ -73,6 +73,12 @@ Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzög
 </blockquote>
 </details>
 
+<details><summary>Wie oft werden die Nowcasts aktualisiert?</summary>
+<blockquote>
+Die Nowcasts werden werktäglich aktualisiert (Montag bis Freitag). Solange ein Team seinen Nowcast noch nicht aktualisiert hat wird der Nowcast des Vortages angezeigt (oder der neueste Nowcast aus den letzten sieben Tagen). Zum Beispiel wird der RKI-Nowcast derzeit nur donnerstags aktualisiert, wenn der neue Wochenbericht erscheint. Wir zeigen diesen Nowcast jeweils bis eine neuere Fassung erscheint.
+</blockquote>
+</details>
+
 <details><summary>Wieso werden Nowcasts für den heutigen und den gestrigen Tag standardmäßig nicht angezeigt?</summary>
 <blockquote>
 Für den heutigen und gestrigen Tag werden besonders viele Fälle nachgemeldet. Dadurch sind auch die Nowcasts für diese Tage weniger zuverlässig als für Tage, die weiter in der Vergangenheit liegen. Wir zeigen die Nowcasts für den heutigen und gestrigen Tag aus diesem Grund standardmäßig nicht an und empfehlen, sie sehr vorsichtig zu interpretieren.
