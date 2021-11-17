@@ -109,7 +109,7 @@ Das Hauptziel dieses Projekts ist es, Nowcasts in Echtzeit zur Verfügung zu ste
 
 Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Forschungsgruppen tragen Nowcasts bei:
 
-- [Institut für Stochastik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
+- [Institut für Mathematik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
 - [Statistisches Beratungslabor, LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en){target="_blank"}
 
