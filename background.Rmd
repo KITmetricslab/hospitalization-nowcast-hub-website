@@ -110,7 +110,7 @@ The main goal of this project is to provide nowcasts in real time to allow for a
 
 This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php){target="_blank"} at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/de/forschung/cst/){target="_blank"} at Heidelberg Institute for Theoretical Studies. Several other independent research groups contribute nowcasts:
 
-- [Institute of Stochastics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
+- [Institute of Mathematics , TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
 - [Statistical Consulting Unit (StaBLab), LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en){target="_blank"}
 
