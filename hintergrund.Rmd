@@ -112,6 +112,7 @@ Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Stati
 - [Institut für Mathematik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
 - [Statistisches Beratungslabor, LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en){target="_blank"}
+- [Department Mathematik, Universität Stockholm](https://www.su.se/english/profiles/fegu7762-1.554768)
 
 
 Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} des Robert Koch Instituts.
@@ -144,19 +145,25 @@ Die Nowcasts beruhen auf einem generalisierten additiven Modell und der sequenzi
 </details>
 
 
-
-
 <details><summary>*RIVM-KEW* (RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande)</summary>
 <blockquote>
 Dieses Modell ist eine vereinfachte Version des Verfahrens von van de Kassteele, Eilers und Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050){target="_blank"}). Für die berichteten Zählwerte pro Meldedatum und Verzögerung wird eine negative Binomialverteilung angenommen. Die erwarteten Werte werden mittels einer zweidimensionalen P-Spline-Oberfläche und weiteren Kovariablen modelliert. Diese Oberfläche wird für die noch nicht beobachteten Kombinationen von Datums- und Verzögerungswert extrapoliert. Der Nowcast für ein Meldedatum entspricht dann der Summe über die entsprechenden beobachteten und extrapolierten Zählwerte pro Verzögerungsdauer. Vorhersageintervalle werden per Monte-Carlo-Simulation aus der entsprechenden prädiktiven Verteilung generiert. Die vereinfachte Version des Modells enthält keine Interaktionsterme für Kalenderzeit und Verzögerung und keine Unimodalitäts- oder Boundary-Restriktionen. Das Modell wird mittels des R-Pakets [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html){target="_blank"} angepasst.
 </blockquote>
 </details>
 
+
 <details><summary>*RKI-weekly_report* (Robert Koch Institut)</summary>
 <blockquote>
 Hierbei handelt es sich um Schätzungen, die jeweils Donnerstags in den [Wochenberichten des Robert Koch Instituts](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} veröffentlicht werden. Diese basieren auf einer modifizierten Variante der [Nowcastingberechnung zur 7-Tage-Inzidenz](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
 <br>
 Da die Nowcast-Schätzung des RKI derzeit nur über den Wochenbericht kommuniziert wird wird sie für diese Plattform aus der jeweiligen Grafik ausgelesen, was zu kleineren Ungenauigkeiten führen kann.
+</blockquote>
+</details>
+
+
+<details><summary>*SU-hier_bayes* (Universität Stockholm)</summary>
+<blockquote>
+tba
 </blockquote>
 </details>
 

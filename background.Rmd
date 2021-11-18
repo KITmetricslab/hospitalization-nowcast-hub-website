@@ -110,9 +110,11 @@ The main goal of this project is to provide nowcasts in real time to allow for a
 
 This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php){target="_blank"} at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/de/forschung/cst/){target="_blank"} at Heidelberg Institute for Theoretical Studies. Several other independent research groups contribute nowcasts:
 
-- [Institute of Mathematics , TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
+- [Institute of Mathematics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
+- [Department Mathematics, Stockholm University](https://www.su.se/english/profiles/fegu7762-1.554768)
 - [Statistical Consulting Unit (StaBLab), LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en){target="_blank"}
+- [Department of Mathematics, Stockholm University](https://www.su.se/english/profiles/fegu7762-1.554768)
 
 Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} of the Robert Koch Institute.
 
@@ -142,9 +144,6 @@ Nowcasts are based on a generalized additive model and the sequential multinomia
 </blockquote>
 </details>
 
-
-
-
 <details><summary>*RIVM-KEW* (RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande)</summary>
 <blockquote>
 This model is a simplified version of the model presented by van de Kassteele, Eilers and Wallinga ([Epidemiology, 2019](https://doi.org/10.1097/ede.0000000000001050){target="_blank"}). The reported counts by date and delay are described by a negative binomial distribution. The expected values are modelled by a two-dimensional P-spline surface and other covariates. This surface is extrapolated for all dates and delays outside the reporting triangle. The nowcast is obtained by summing all counts over the delays by date. Prediction intervals are obtained by Monte Carlo simulation from the predictive distribution. This simplified model is without the calender time x delay interaction, the unimodality and boundary constraints. Model fitting is done efficiently using the [mgcv](https://cran.r-project.org/web/packages/mgcv/index.html){target="_blank"} package in R.
@@ -156,6 +155,12 @@ This model is a simplified version of the model presented by van de Kassteele, E
 These nowcasts are taken from the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} (updated on Thursdays). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
 <br>
 As the RKI nowcasts are currently only communiated via the weekly reports, we read out the numbers from the respective figures, which may lead to minor imprecisions.
+</blockquote>
+</details>
+
+<details><summary>*SU-hier_bayes* (Stockholm University)</summary>
+<blockquote>
+tba
 </blockquote>
 </details>
 
