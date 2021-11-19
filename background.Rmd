@@ -108,13 +108,14 @@ The main goal of this project is to provide nowcasts in real time to allow for a
 
 ### Contributing research groups
 
-This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php){target="_blank"} at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/de/forschung/cst/){target="_blank"} at Heidelberg Institute for Theoretical Studies. Several other independent research groups contribute nowcasts:
+This platform is run by members of the [Chair of Statistics and Econometrics](https://statistik.econ.kit.edu/index.php){target="_blank"} at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/de/forschung/cst/){target="_blank"} at Heidelberg Institute for Theoretical Studies. Several other independent groups from academia and media contribute nowcasts:
 
 - [Institute of Mathematics, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
 - [Department Mathematics, Stockholm University](https://www.su.se/english/profiles/fegu7762-1.554768)
 - [Statistical Consulting Unit (StaBLab), LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en){target="_blank"}
 - [Department of Mathematics, Stockholm University](https://www.su.se/english/profiles/fegu7762-1.554768)
+- [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus)
 
 Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} of the Robert Koch Institute.
 
@@ -161,6 +162,12 @@ As the RKI nowcasts are currently only communiated via the weekly reports, we re
 <details><summary>*SU-hier_bayes* (Stockholm University)</summary>
 <blockquote>
 tba
+</blockquote>
+</details>
+
+<details><summary>*SZ-hosp_nowcast* (Süddeutsche Zeitung)</summary>
+<blockquote>
+SZ estimates the nowcasting values for the hospitalization incidence based on differences between the daily published and retrospectively corrected values resulting from later reports. To this end the archived data sets of Robert-Koch-Institute (https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland) from the last 60 days are analysed. For each of the 25 days before the last date in the data set we compute by how many percent the later corrected value differs from the originally reported value. Quantiles of the resulting multiplication factors are computed, and the currently reported hospitalization incidence is multiplied with these quantiles to estimate the total incidence. Finally, the results are smoothed over a three-day window to remove unrealistic fluctuations.
 </blockquote>
 </details>
 

@@ -105,14 +105,15 @@ Das Hauptziel dieses Projekts ist es, Nowcasts in Echtzeit zur Verfügung zu ste
 
 <br>
 
-### Beteiligte Forschungsgruppen
+### Beteiligte Gruppen
 
-Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Forschungsgruppen tragen Nowcasts bei:
+Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Gruppen aus Wissenschaft und Medien tragen Nowcasts bei:
 
 - [Institut für Mathematik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
 - [Statistisches Beratungslabor, LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en){target="_blank"}
 - [Department Mathematik, Universität Stockholm](https://www.su.se/english/profiles/fegu7762-1.554768)
+- [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus)
 
 
 Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} des Robert Koch Instituts.
@@ -166,6 +167,14 @@ Da die Nowcast-Schätzung des RKI derzeit nur über den Wochenbericht kommunizie
 tba
 </blockquote>
 </details>
+
+
+<details><summary>*SZ-hosp_nowcast* (Süddeutsche Zeitung)</summary>
+<blockquote>
+Die SZ schätzt die Werte für das Nowcasting der Hospitalisierungsinzidenz auf Basis der Abweichungen zwischen täglich veröffentlichten und nachträglich korrigierten Werten, die durch Nachmeldungen entstehen. Dabei werden die archivierten Datensätze des Robert-Koch-Instituts (https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland) der vergangenen 60 Tage analysiert. Jeweils für die 25 Tage vor dem letzten Datum im Datensatz wird berechnet, um wie viel Prozent der an späteren Tagen gemeldete korrigierte Wert von der ursprünglich gemeldeten Hospitalisierungsinzidenz abweicht. Für diese abgeleiteten Multiplikationsfaktoren werden Quantile berechnet. Die aktuell veröffentlichte Inzidenz wird mit den berechneten Quantilen multipliziert, um die Hospitalisierungsinzidenz zu schätzen. Abschließend wird die Hospitalisierungsinzidenz über ein Drei-Tage-Fenster geglättet, um unrealistische größere Schwankungen auszugleichen.
+</blockquote>
+</details>
+
 
 <br>
 
