@@ -34,6 +34,8 @@ Gleichzeitig haben wir ein wissenschaftliches Interesse, verschiedene Nowcasting
 Wir richten uns hier nach der Definition des Robert-Koch-Instituts. Die heutige 7-Tage-Hospitalisierungsinzidenz ist die Anzahl an hospitalisierten COVID-19 Fällen (absolut oder pro 100.000 Einwohner) deren Meldedatum, also das Datum an dem das lokale Gesundheitsamt die zugehörige COVID-19 Infektion elektronisch erfasst hat, in den 7 vorangegangenen Tagen liegt. Es handelt sich also *nicht* um die Zahl der neuen Hospitalisierungen in den letzten 7 Tagen. Auch berücksichtigt die 7-Tage-Hospitalisierungsinzidenz nicht, ob der Hospitalisierungsgrund COVID-19 oder ein anderer ist.
 <br>
 Weitere Informationen sowie die aktuellen und vergangenen 7-Tage-Hospitalisierungsinzidenzen finden sich auf der [GitHub Seite des Robert Koch-Instituts](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
+<br>
+Wir weisen in diesem Zusammenhang darauf hin, dass manche Bundesländer auch eingene Hospitalisiserungsinzidenzen veröffentlichen, deren Definitionen von der des RKI abweichen (z.B. zeitliche Aggregierung nach Hospitalisierungsdatum statt Meldedatum der Infektion; siehe [Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html)). Wir betrachten ausschließlich den Indikator des RKI.
 </blockquote>
 </details>
 

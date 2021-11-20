@@ -34,6 +34,8 @@ At the same time we have a scientific interest to compare different nowcasting m
 We follow the definition by Robert Koch Institute. Today's seven-day hospitalization incidence is the number of hospitalized cases of COVID-19 (in absolute numbers or per 100.000 population) whose *Meldedatum*, i.e. the date when the respective infection was electronically recorded at the local health authorities was in the 7 preceding days. It is thus *not* equivalent to the number of new hospitalizations during the last 7 days. Also, the 7-day hospitalization incidence does not take into account whether the reason of hospitalization was COVID-19 or not.
 <br>
 Further information on the 7-day hospitalization incidence (in German) are available on the [GitHub site of Robert Koch-Institute](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
+<br>
+In this context we note that some German states (Bundesländer) also publish their own hospitalization incidences which follow different definition (e.g., temporal aggregation by date of hospitalization rather than *Meldedatum* of the infection; see [this news item by NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html)). We focus exclusively on the indicator provided by RKI.
 </blockquote>
 </details>
 
