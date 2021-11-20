@@ -35,7 +35,7 @@ We follow the definition by Robert Koch Institute. Today's seven-day hospitaliza
 <br>
 Further information on the 7-day hospitalization incidence (in German) are available on the [GitHub site of Robert Koch-Institute](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
 <br>
-In this context we note that some German states (Bundesländer) also publish their own hospitalization incidences which follow different definition (e.g., temporal aggregation by date of hospitalization rather than *Meldedatum* of the infection; see [this news item by NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html)). We focus exclusively on the indicator provided by RKI.
+In this context we note that some German states (Bundesländer) also publish their own hospitalization incidences which follow different definitions (e.g., temporal aggregation by date of hospitalization rather than *Meldedatum* of the infection; see [this news item by NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html)). We focus exclusively on the indicator provided by RKI.
 </blockquote>
 </details>
 
