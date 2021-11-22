@@ -116,6 +116,7 @@ Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Stati
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en){target="_blank"}
 - [Department Mathematik, Universität Stockholm](https://www.su.se/english/profiles/fegu7762-1.554768)
 - [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus)
+- [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/)
 
 
 Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} des Robert Koch Instituts.
@@ -174,6 +175,13 @@ tba
 <details><summary>*SZ-hosp_nowcast* (Süddeutsche Zeitung)</summary>
 <blockquote>
 Die SZ schätzt die Werte für das Nowcasting der Hospitalisierungsinzidenz auf Basis der Abweichungen zwischen täglich veröffentlichten und nachträglich korrigierten Werten, die durch Nachmeldungen entstehen. Dabei werden die archivierten Datensätze des Robert-Koch-Instituts (https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland) der vergangenen 60 Tage analysiert. Jeweils für die 25 Tage vor dem letzten Datum im Datensatz wird berechnet, um wie viel Prozent der an späteren Tagen gemeldete korrigierte Wert von der ursprünglich gemeldeten Hospitalisierungsinzidenz abweicht. Für diese abgeleiteten Multiplikationsfaktoren werden Quantile berechnet. Die aktuell veröffentlichte Inzidenz wird mit den berechneten Quantilen multipliziert, um die Hospitalisierungsinzidenz zu schätzen. Abschließend wird die Hospitalisierungsinzidenz über ein Drei-Tage-Fenster geglättet, um unrealistische größere Schwankungen auszugleichen.
+</blockquote>
+</details>
+
+
+<details><summary>*Epiforecasts-independent* (London School of Hygiene and Tropical Medicine / epiforecasts)</summary>
+<blockquote>
+Ein semiparametrisches Nowcasting-Verfahren für rechszensierte Hospitalisierungen nach Datum des positiven Tests. Hospitalisierungen werden mittels eines Random-Walk auf der log-Skala modelliert. Reporting-Verzögerungen werden anschließend parametrisch mit einer log-Normalverteilung modelliert, wobei der log-Erwartungswert und die log-Standardabweichung einem wöchentlichen Random-Walk mit gemeinsamer Standardabweichung folgen. Wochentagseffekte im Reporting werden mit zufälligen Effekten modelliert, wobei Feiertage wie Sonntage behandelt werden. Nowcasts für Altersgruppen und geographische Einheiten werden jeweils separat erstellt (daher der Name des Modells). Das Modell ist im R-Paket [epinowcast](https://epiforecasts.io/epinowcast) implementiert. Der Analyse-Code ist [hier](https://github.com/epiforecasts/eval-germany-sp-nowcasting) verfügbar. Anmerkung: In einer zweiten Version des Modells (bisher nicht angezeigt) werden die verschiedenen Zeitreihen gemeinsam modelliert ([Epiforecasts-hierarchical](https://github.com/KITmetricslab/hospitalization-nowcast-hub/tree/main/data-processed/Epiforecasts-hierarchical)).
 </blockquote>
 </details>
 

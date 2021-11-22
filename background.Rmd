@@ -117,6 +117,7 @@ This platform is run by members of the [Chair of Statistics and Econometrics](ht
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, the Netherlands](https://www.rivm.nl/en){target="_blank"}
 - [Department of Mathematics, Stockholm University](https://www.su.se/english/profiles/fegu7762-1.554768)
 - [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus)
+- [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/)
 
 Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} of the Robert Koch Institute.
 
@@ -169,6 +170,12 @@ tba
 <details><summary>*SZ-hosp_nowcast* (Süddeutsche Zeitung)</summary>
 <blockquote>
 SZ estimates the nowcasting values for the hospitalization incidence based on differences between the daily published and retrospectively corrected values resulting from later reports. To this end the archived data sets of Robert-Koch-Institute (https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland) from the last 60 days are analysed. For each of the 25 days before the last date in the data set we compute by how many percent the later corrected value differs from the originally reported value. Quantiles of the resulting multiplication factors are computed, and the currently reported hospitalization incidence is multiplied with these quantiles to estimate the total incidence. Finally, the results are smoothed over a three-day window to remove unrealistic fluctuations.
+</blockquote>
+</details>
+
+<details><summary>*epiforecasts-independent* (London School of Hygiene and Tropical Medicine / epiforecasts)</summary>
+<blockquote>
+A semi-parametric nowcasting method for right censored hospitalisations by date of positive test. Hospitalisations are modelled using a random walk on the log scale. Reporting delays are then modelled parametrically using a lognormal distribution with the log mean and log standard deviation each modelled using a weekly random walk with a pooled standard deviation. Report date effects are modelling using a random effect for day of the week with public holidays assumed to be reported like Sundays. Age groups and locations are nowcast independently (thus the name of the model). The model is implemented using the [epinowcast R package](https://epiforecasts.io/epinowcast). The analysis code is available [here](https://github.com/epiforecasts/eval-germany-sp-nowcasting). Note: There is a second version of this model currently not displayed in which the different time series are modelled in a hierarchical manner ([Epiforecasts-hierarchical](https://github.com/KITmetricslab/hospitalization-nowcast-hub/tree/main/data-processed/Epiforecasts-hierarchical)).
 </blockquote>
 </details>
 
