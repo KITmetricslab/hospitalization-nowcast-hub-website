@@ -181,6 +181,12 @@ A semi-parametric nowcasting method for right censored hospitalisations by date 
 
 <br>
 
+### GitHub Repository
+
+All nowcasts are available under open licences in a [public GitHub repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub).
+
+<br>
+
 ### Evaluation study
 
 We are planning to compare the different nowcasting methods in a prospective evaluation study. To this end we will soon deposit a public study protocol (similar to the [protocol](https://osf.io/zkdvb/){target="_blank"} of a recent [study on short-term predictions](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).

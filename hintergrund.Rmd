@@ -188,6 +188,11 @@ Ein semiparametrisches Nowcasting-Verfahren für rechszensierte Hospitalisierung
 
 <br>
 
+### GitHub Repository
+
+Alle Nowcasts sind unter offenen Lizenzen in einem [öffentlichen GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub) verfügbar.
+
+
 ### Evaluationsstudie
 
 Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluationsstudie systematisch zu vergleichen. Hierfür werden wir in Kürze ein öffentliches Studienprotokoll hinterlegen (ähnlich dem [Protokoll](https://osf.io/zkdvb/){target="_blank"} zu einer früheren [Studie über Kurzzeitvorhersagen](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
