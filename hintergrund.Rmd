@@ -35,7 +35,7 @@ Wir richten uns hier nach der Definition des Robert-Koch-Instituts. Die heutige 
 <br>
 Weitere Informationen sowie die aktuellen und vergangenen 7-Tage-Hospitalisierungsinzidenzen finden sich auf der [GitHub Seite des Robert Koch-Instituts](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
 <br>
-Wir weisen in diesem Zusammenhang darauf hin, dass manche Bundesländer auch eingene Hospitalisiserungsinzidenzen veröffentlichen, deren Definitionen von der des RKI abweichen (z.B. zeitliche Aggregierung nach Hospitalisierungsdatum statt Meldedatum der Infektion; siehe [Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html)). Wir betrachten ausschließlich den Indikator des RKI.
+Wir weisen in diesem Zusammenhang darauf hin, dass manche Bundesländer auch eingene Hospitalisiserungsinzidenzen veröffentlichen, deren Definitionen von der des RKI abweichen (z.B. zeitliche Aggregierung nach Hospitalisierungsdatum statt Meldedatum der Infektion; siehe [Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html){target="_blank"}). Wir betrachten ausschließlich den Indikator des RKI.
 </blockquote>
 </details>
 
@@ -109,14 +109,14 @@ Das Hauptziel dieses Projekts ist es, Nowcasts in Echtzeit zur Verfügung zu ste
 
 ### Beteiligte Gruppen
 
-Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Gruppen aus Wissenschaft und Medien tragen Nowcasts bei:
+Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Statistik](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie sowie der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/){target="_blank"} am Heidelberger Institut für Theoretische Studien betrieben. Mehrere unabhängige weitere Gruppen aus Wissenschaft und Medien tragen Nowcasts bei (siehe auch Metadata-Files in unserem [GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub/tree/main/data-processed){target="_blank"}):
 
 - [Institut für Mathematik, TU Ilmenau](https://www.tu-ilmenau.de/stochastik/){target="_blank"}
 - [Statistisches Beratungslabor, LMU München](https://corona.stat.uni-muenchen.de/){target="_blank"}
 - [RIVM (Rijksinstituut voor Volksgezondheid en Milieu), Bilthoven, Niederlande](https://www.rivm.nl/en){target="_blank"}
-- [Department Mathematik, Universität Stockholm](https://www.su.se/english/profiles/fegu7762-1.554768)
-- [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus)
-- [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/)
+- [Department Mathematik, Universität Stockholm](https://www.su.se/english/profiles/fegu7762-1.554768){target="_blank"}
+- [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus){target="_blank"}
+- [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/){target="_blank"}
 
 
 Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} des Robert Koch Instituts.
@@ -181,17 +181,18 @@ Die SZ schätzt die Werte für das Nowcasting der Hospitalisierungsinzidenz auf 
 
 <details><summary>*Epiforecasts-independent* (London School of Hygiene and Tropical Medicine / epiforecasts)</summary>
 <blockquote>
-Ein semiparametrisches Nowcasting-Verfahren für rechszensierte Hospitalisierungen nach Datum des positiven Tests. Hospitalisierungen werden mittels eines Random-Walk auf der log-Skala modelliert. Reporting-Verzögerungen werden anschließend parametrisch mit einer log-Normalverteilung modelliert, wobei der log-Erwartungswert und die log-Standardabweichung einem wöchentlichen Random-Walk mit gemeinsamer Standardabweichung folgen. Wochentagseffekte im Reporting werden mit zufälligen Effekten modelliert, wobei Feiertage wie Sonntage behandelt werden. Nowcasts für Altersgruppen und geographische Einheiten werden jeweils separat erstellt (daher der Name des Modells). Das Modell ist im R-Paket [epinowcast](https://epiforecasts.io/epinowcast) implementiert. Der Analyse-Code ist [hier](https://github.com/epiforecasts/eval-germany-sp-nowcasting) verfügbar. Anmerkung: In einer zweiten Version des Modells (bisher nicht angezeigt) werden die verschiedenen Zeitreihen gemeinsam modelliert ([Epiforecasts-hierarchical](https://github.com/KITmetricslab/hospitalization-nowcast-hub/tree/main/data-processed/Epiforecasts-hierarchical)).
+Ein semiparametrisches Nowcasting-Verfahren für rechszensierte Hospitalisierungen nach Datum des positiven Tests. Hospitalisierungen werden mittels eines Random-Walk auf der log-Skala modelliert. Reporting-Verzögerungen werden anschließend parametrisch mit einer log-Normalverteilung modelliert, wobei der log-Erwartungswert und die log-Standardabweichung einem wöchentlichen Random-Walk mit gemeinsamer Standardabweichung folgen. Wochentagseffekte im Reporting werden mit zufälligen Effekten modelliert, wobei Feiertage wie Sonntage behandelt werden. Nowcasts für Altersgruppen und geographische Einheiten werden jeweils separat erstellt (daher der Name des Modells). Das Modell ist im R-Paket [epinowcast](https://epiforecasts.io/epinowcast){target="_blank"} implementiert. Der Analyse-Code ist [hier](https://github.com/epiforecasts/eval-germany-sp-nowcasting){target="_blank"} verfügbar. Anmerkung: In einer zweiten Version des Modells (bisher nicht angezeigt) werden die verschiedenen Zeitreihen gemeinsam modelliert ([Epiforecasts-hierarchical](https://github.com/KITmetricslab/hospitalization-nowcast-hub/tree/main/data-processed/Epiforecasts-hierarchical){target="_blank"}).
 </blockquote>
 </details>
 
 
 <br>
 
-### GitHub Repository
+### GitHub Repository und Nutzung von Ergebnissen
 
-Alle Nowcasts sind unter offenen Lizenzen in einem [öffentlichen GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub) verfügbar.
+Alle Nowcasts sind unter offenen Lizenzen in einem [öffentlichen GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub) verfügbar. Sie können für eine Vielzahl von Zwecken weiterverwendet werden, sofern die Quelle anegeben wird (siehe die entsprechenden Lizenzfiles für Details). Wenn Sie Nowcasts aus dieser Plattform für öffentliche Darstellungen weiterverwenden freuen wir uns über eine kurze Nachricht an das Organisationsteam oder die Autoren des jeweiligen Nowcasts.
 
+<br>
 
 ### Evaluationsstudie
 
