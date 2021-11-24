@@ -135,9 +135,9 @@ Die Hauptannahme dieses Verfahrens ist, dass sich der Anteil von Hospitalisierun
 
 <details><summary>*KIT-simple_nowcast* (Karlsruher Institut für Technologie)</summary>
 <blockquote>
-Das Nowcasting beruht auf einer einfachen Schätzung der Verteilung der Verzögerungsdauern zwischen Meldedatum und Erscheinen einer Hospitalisierung in den RKI-Daten (basierend auf den letzten 50 Tagen). Aus diesen werden Multiplikationsfaktoren abgeleitet, mit denen die jeweils unvollständigen aktuellsten Beobachtungen nach oben korrigiert werden. Um die Nowcast-Unsicherheit zu beurteilen werden derartige korrigierte Werte auch für vergangene Zeitpunkte (basierend jeweils auf der damals verfügbaren Information) generiert und mit den entsprechenden später gemachten Beobachtungen verglichen. Hierfür wird eine negative Binomialverteilung angenommen, deren Streuungsparameter vom zeitlichen Abstand zwischen Meldedatum und Zeitpunkt des Nowcats abhängt. Die Schätzung der Streuungsparameter erfolgt mittels der Maximum Likelihood-Methode.
+Das Nowcasting beruht auf einer einfachen Schätzung der Verteilung der Verzögerungsdauern zwischen Meldedatum und Erscheinen einer Hospitalisierung in den RKI-Daten (basierend auf den letzten 60 Tagen). Aus diesen werden Multiplikationsfaktoren abgeleitet, mit denen die jeweils unvollständigen aktuellsten Beobachtungen nach oben korrigiert werden. Um die Nowcast-Unsicherheit zu beurteilen werden derartige korrigierte Werte auch für vergangene Zeitpunkte (basierend jeweils auf der damals verfügbaren Information) generiert und mit den entsprechenden später gemachten Beobachtungen verglichen. Hierfür wird eine negative Binomialverteilung angenommen, deren Streuungsparameter vom zeitlichen Abstand zwischen Meldedatum und Zeitpunkt des Nowcats abhängt. Die Schätzung der Streuungsparameter erfolgt mittels der Maximum Likelihood-Methode.
 <br>
-Dieses Verfahren ist bewusst einfach gehalten. Die zentrale Annahme besteht darin, dass die Struktur der Meldeverzüge zeitlich stabil bleibt. Z.B. Wochentagseffekte oder Entwicklungen der Fallzahlen werden nicht berücksichtigt.
+Dieses Verfahren ist bewusst einfach gehalten und hat die Funktion eines Referenz-/Baseline-Modells in unserer vergleichenden Evaluationsstudie (siehe unten). Die zentrale Annahme besteht darin, dass die Struktur der Meldeverzüge zeitlich stabil bleibt. Z.B. Wochentagseffekte oder Entwicklungen der Fallzahlen werden nicht berücksichtigt.
 </blockquote>
 </details>
 
@@ -190,13 +190,13 @@ Ein semiparametrisches Nowcasting-Verfahren für rechszensierte Hospitalisierung
 
 ### GitHub Repository und Nutzung von Ergebnissen
 
-Alle Nowcasts sind unter offenen Lizenzen in einem [öffentlichen GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub) verfügbar. Sie können für eine Vielzahl von Zwecken weiterverwendet werden, sofern die Quelle anegeben wird (siehe die entsprechenden Lizenzfiles für Details). Wenn Sie Nowcasts aus dieser Plattform für öffentliche Darstellungen weiterverwenden freuen wir uns über eine kurze Nachricht an das Organisationsteam oder die Autoren des jeweiligen Nowcasts.
+Alle Nowcasts sind unter offenen Lizenzen in einem [öffentlichen GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub) verfügbar. Sie können für eine Vielzahl von Zwecken weiterverwendet werden, sofern die Quelle angegeben wird (siehe die entsprechenden Lizenzfiles für Details). Wenn Sie Nowcasts aus dieser Plattform für öffentliche Darstellungen weiterverwenden freuen wir uns über eine kurze Nachricht an das Organisationsteam oder die Autoren des jeweiligen Nowcasts.
 
 <br>
 
 ### Evaluationsstudie
 
-Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluationsstudie systematisch zu vergleichen. Hierfür werden wir in Kürze ein öffentliches Studienprotokoll hinterlegen (ähnlich dem [Protokoll](https://osf.io/zkdvb/){target="_blank"} zu einer früheren [Studie über Kurzzeitvorhersagen](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
+Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluationsstudie systematisch zu vergleichen. Hierfür haben wir ein [öffentliches Studienprotokoll](https://osf.io/mru75/){target="_blank"} hinterlegt (ähnlich dem [Protokoll](https://osf.io/zkdvb/){target="_blank"} zu einer früheren [Studie über Kurzzeitvorhersagen](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
 
 <br>
 

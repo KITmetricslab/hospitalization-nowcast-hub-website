@@ -134,9 +134,9 @@ The uncertainty is based on a log-normal (within age-groups) or normal (sum over
 
 <details><summary>*KIT-simple_nowcast* (Karlsruher Institut für Technologie)</summary>
 <blockquote>
-Nowcasting is based on a simple estimation of the distribution of delays between the Meldedatum and appearance in the RKI data set (based on the last 50 days). From these, multiplication factors are derived and used for an upward correction of incomplete observations. To assess the nowcast uncertainty, the same corrected values are generated for past time points (based on the information available at the respective time) and compared to the subsequently observed values. To this end we assume a negative binomial distribution, where the dispersion parameter is a function of the time difference between Meldedatum and date of nowcast. Estimation of the dispersion parameter ist done via a maximum likelihood approach.
+Nowcasting is based on a simple estimation of the distribution of delays between the Meldedatum and appearance in the RKI data set (based on the last 60 days). From these, multiplication factors are derived and used for an upward correction of incomplete observations. To assess the nowcast uncertainty, the same corrected values are generated for past time points (based on the information available at the respective time) and compared to the subsequently observed values. To this end we assume a negative binomial distribution, where the dispersion parameter is a function of the time difference between Meldedatum and date of nowcast. Estimation of the dispersion parameter ist done via a maximum likelihood approach.
 <br>
-This method is purposefully kept simple. The central assumption is that delay distributions are temporally stable. Weekday effects and recent developments in case numbers are not accounted for.
+This method is purposefully kept simple and has the role of a reference/baseline model in our comparative evaluation study (see below). The central assumption is that delay distributions are temporally stable. Weekday effects and recent developments in case numbers are not accounted for.
 </blockquote>
 </details>
 
@@ -189,7 +189,7 @@ All nowcasts are available under open licences in a [public GitHub repository](h
 
 ### Evaluation study
 
-We are planning to compare the different nowcasting methods in a prospective evaluation study. To this end we will soon deposit a public study protocol (similar to the [protocol](https://osf.io/zkdvb/){target="_blank"} of a recent [study on short-term predictions](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
+We are planning to compare the different nowcasting methods in a prospective evaluation study. To this end we have deposited a [public study protocol](https://osf.io/mru75/){target="_blank"} (similar to the [protocol](https://osf.io/zkdvb/){target="_blank"} of a recent [study on short-term predictions](https://www.nature.com/articles/s41467-021-25207-0){target="_blank"}).
 
 <br>
 
