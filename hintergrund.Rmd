@@ -47,6 +47,13 @@ Deswegen werden die täglichen nach Meldedatum ausgewiesenen Hospitalisierungen 
 </blockquote>
 </details>
 
+<details><summary>Was bedeutet das für die Schwellenwerte, die für die 7-Tage-Hospitalisierungsinzidenz festgelegt wurden?</summary>
+<blockquote>
+Die im September [vom RKI vorgeschlagenen Schwellenwerte  (Abbildung 1)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Downloads/control-covid-2021-09-22.pdf?__blob=publicationFile) von 1.5 und 5 beziehen sich ausdrücklich auf die vorläufigen tagesaktuell berichteten Werte (siehe Punkt "eingefrorene Zeitreihe" unten). Sie beziehen die Unvollständigkeit der Daten also mit ein.
+Der [Regierungsbeschluss vom 18.11.2021 (Punkt 9)](https://www.bundesregierung.de/resource/blob/974430/1982598/defbdff47daf5f177586a5d34e8677e8/2021-11-18-mpk-data.pdf?download=1) spezifiziert nicht explizit, ob sich die Schwellenwerte 3, 6 und 9 auf vorläufige tagesaktuelle oder auf finale Werte beziehen. [Medienberichten](https://www.ndr.de/nachrichten/info/Fragen-und-Antworten-zur-Hospitalisierungsinzidenz,hospitalisierungsinzidenz102.html) zufolge werden Schwellenwerte allerdings ebenfalls auf die vorläufigen tageaktuellen Werte angewendet.
+</blockquote>
+</details>
+
 <details><summary>Was bedeutet Nowcasting und wie sollten die Nowcasts interpretiert werden?</summary>
 <blockquote>
 Nowcasting bezeichnet ein statistisches Korrekturverfahren, das ausgehend von vorläufigen Messungen schätzt, welchen Wert die selben Größen in einer späteren finalen Version eines Datensatzes annehmen werden. In unserem Anwendunsfall schätzen wir beruhend auf den Hospitalisierungen, die bis zum heutigen Tag für ein bestimmtes Meldedatum (siehe oben) bekannt geworden sind, wie hoch die Zahl der Hospitalisierungen für dieses Datum nach Vorliegen aller Meldungen insgesamt liegen wird. Dabei werden Daten aus der Vergangenheit mit vollständiger Information genutzt.  
@@ -60,6 +67,8 @@ Die hier präsentierten Nowcasts sollten als Wahrscheinlichkeitsaussagen interpr
 <details><summary>Wieso werden mehrere verschiedene Nowcasts gezeigt? Was ist ein Ensemble-Nowcast?</summary>
 <blockquote>
 Bei der Erstellung von Nowcasts wird stets eine Reihe von Annahmen getroffen. Zudem können unterschiedliche Modelle unterschiedliche zusätzliche Datenquellen mit einbeziehen. Daher können sich die Ergebnisse verschiedener Verfahren unterscheiden, und es ist es sinnvoll, mehrere Nowcasts zu vergleichen und die Bandbreite der Vorhersagen zu berücksichtigen. Zudem kann es vorteilhaft sein, verschiedene Nowcasts in einem sogenannten Ensemble-Nowcast zusammenzuführen, um eine robustere Schätzung zu erhalten. Dies hat sich beispielsweise in der [Wettervorhersage](https://www.science.org/doi/abs/10.1126/science.1115255){target="_blank"}, aber auch in [epidemiologischen Anwendungen](https://www.medrxiv.org/content/10.1101/2021.02.03.21250974v2){target="_blank"} bewährt.
+<br>
+Hinweis: Die im Ensemble zusammengefassten Modelle sind unter Umständen nicht jeden Tag die selben (z.B. werden am Wochenende manche Modelle aktualisiert, andere nicht). Dadurch kann es sein, dass das Ensemble an aufeinanderfolgenden Tagen etwas unterschiedlich aussieht.
 </blockquote>
 </details>
 
@@ -71,7 +80,7 @@ Kein Modell ist perfekt und die genaue Zahl der Hospitalisierungen zu einem best
 
 <details><summary>Was sind mögliche Probleme und Schwächen? Wann muss man bei der Interpretation besonders vorsichtig sein?</summary>
 <blockquote>
-Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzögerungen zwischen Meldedatum und Erscheinen einer Hospitalisierung in den Daten des RKI auch in Zukunft ähnlichen Mustern folgen werden wie in der Vergangenheit. Ist dies nicht mehr der Fall, etwa aufgrund gewichtiger Änderungen der Teststrategie oder einer Überlastung der Gesundheitsämter, so kann die Qualität der Nowcasts beeinträchtigt werden.
+Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzögerungen zwischen Meldedatum und Erscheinen einer Hospitalisierung in den Daten des RKI auch in Zukunft ähnlichen Mustern folgen werden wie in der Vergangenheit. Ist dies nicht mehr der Fall, etwa aufgrund gewichtiger Änderungen der Teststrategie oder einer Überlastung der Gesundheitsämter, so kann die Qualität der Nowcasts beeinträchtigt werden. Werden etwa die mittleren Verzögerungen größer, so können die Nowcasts dazu neigen, die wahren Werte zu unterschätzen.
 </blockquote>
 </details>
 

@@ -47,6 +47,12 @@ The daily values of the hospitalization incidence aggregated by *Meldedatum* are
 </blockquote>
 </details>
 
+<details><summary>What does that mean for the thresholds which have been defined for the hospitalization incidence?</summary>
+<blockquote>
+The thresholds of 1.5 and 5 [suggested by RKI in September  (Fig 1)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Downloads/control-covid-2021-09-22.pdf?__blob=publicationFile) explicitly refer to preliminary values as available on the respective date (see "time series of frozen values" below). They thus take into account the incompleteness of the data. The  [governmental decision from 18 November 2021 (Paragraph 9)](https://www.bundesregierung.de/resource/blob/974430/1982598/defbdff47daf5f177586a5d34e8677e8/2021-11-18-mpk-data.pdf?download=1) does not address this distinction explicitly, but according to [media coverage](https://www.ndr.de/nachrichten/info/Fragen-und-Antworten-zur-Hospitalisierungsinzidenz,hospitalisierungsinzidenz102.html) the thresholds of 3, 6 and 9 are equally applied to the preliminary values.
+</blockquote>
+</details>
+
 <details><summary>What does nowcasting mean and how should nowcasts be interpreted?</summary>
 <blockquote>
 Nowcasting is a statistical tool which, based on preliminary data, estimates which value a given quantity will take once measurements are complete. In our application we estimate how many hospitalizations will be reported in total for a given *Meldedatum*. To this end, information on the hospitalizations already reported up to the current date and data on past reporting delays are used.
@@ -71,7 +77,7 @@ No model is perfect and the exact number of hospitalizations for a given *Melded
 
 <details><summary>What are possible difficulties and weaknesses? When are results to be interpreted with special care?</summary>
 <blockquote>
-The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer.
+The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer. For instance, if average delays get loner, nowcasts may tend to underestimate the true values.
 </blockquote>
 </details>
 
