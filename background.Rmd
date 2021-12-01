@@ -75,9 +75,15 @@ No model is perfect and the exact number of hospitalizations for a given *Melded
 </blockquote>
 </details>
 
+<details><summary>How reliable are the nowcasts?</summary>
+<blockquote>
+The evaluation of the different methods is an important goal of this project (see below). However, it is in the nature of things that assessing the quality of nowcasts is only feasible after a some time has passed. The visualization tool enables the user to return to past data versions and nowcasts issued in the past to get an idea of their reliability. E.g., nowcasts for the state of Saxony from 18 November 2021 were considerably below the ultimately observed values, which was likely due to the overstrain of the reporting system (see next question).
+</blockquote>
+</details>
+
 <details><summary>What are possible difficulties and weaknesses? When are results to be interpreted with special care?</summary>
 <blockquote>
-The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer. For instance, if average delays get loner, nowcasts may tend to underestimate the true values.
+The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer. For instance, if average delays get loner, nowcasts may tend to underestimate the true values. It must be assumed that this is currently (December 2021) the case for certain fedeal states, or may be the case in weeks to come.
 </blockquote>
 </details>
 

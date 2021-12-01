@@ -78,9 +78,15 @@ Kein Modell ist perfekt und die genaue Zahl der Hospitalisierungen zu einem best
 </blockquote>
 </details>
 
+<details><summary>Wie verlässlich sind die Nowcasts?</summary>
+<blockquote>
+Die Evaluation der verschiedenen Verfahren ist ein wichtiges Ziel dieses Projekts (siehe unten). Jedoch liegt es in der Natur des Problems, dass erst mit größerem zeitlichem Abstand systematisch ausgewertet werden kann, wie zuverlässig die Nowcasts waren. Das Visualisierungs-Tool erlaubt es, mittels der Datumsauswahl zu früheren Datenständen und den damals erstellten Nowcasts zurückzukehren und so einen Eindruck von der Qualität der Nowcasts zu gewinnen. Z.B. der Nowcast für Sachsen vom 18. November liegt deutlich unter den in der Folge beobachteten Werten, was vermutlich der Überlastung des Meldesystems geschuldet ist (siehe nächste Frage).
+</blockquote>
+</details>
+
 <details><summary>Was sind mögliche Probleme und Schwächen? Wann muss man bei der Interpretation besonders vorsichtig sein?</summary>
 <blockquote>
-Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzögerungen zwischen Meldedatum und Erscheinen einer Hospitalisierung in den Daten des RKI auch in Zukunft ähnlichen Mustern folgen werden wie in der Vergangenheit. Ist dies nicht mehr der Fall, etwa aufgrund gewichtiger Änderungen der Teststrategie oder einer Überlastung der Gesundheitsämter, so kann die Qualität der Nowcasts beeinträchtigt werden. Werden etwa die mittleren Verzögerungen größer, so können die Nowcasts dazu neigen, die wahren Werte zu unterschätzen.
+Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzögerungen zwischen Meldedatum und Erscheinen einer Hospitalisierung in den Daten des RKI auch in Zukunft ähnlichen Mustern folgen werden wie in der Vergangenheit. Ist dies nicht mehr der Fall, etwa aufgrund gewichtiger Änderungen der Teststrategie oder einer Überlastung der Gesundheitsämter, so kann die Qualität der Nowcasts beeinträchtigt werden. Werden etwa die mittleren Verzögerungen größer, so können die Nowcasts dazu neigen, die wahren Werte zu unterschätzen. Es ist anzunehmen, dass dies für einige Bundesländer derzeit (Dezember 2021) der Fall ist oder in den nächsten Wochen der Fall sein wird.
 </blockquote>
 </details>
 
