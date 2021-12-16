@@ -2,12 +2,12 @@
 title: "Kontakt"
 ---
 
-Diese Plattform wird betrieben von Mitgliedern des [Lehrstuhls für Statistik und Ökonometrie](https://statistik.econ.kit.edu/index.php) am Karlsruher Institut für Technologie und der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/) am Heidelberger Institut für Theoretische Studien.
+Diese Plattform wird betrieben von Mitgliedern des [Lehrstuhls für Statistik und Ökonometrie](https://statistik.econ.kit.edu/index.php){target="_blank"} am Karlsruher Institut für Technologie und der [Computational Statistics Gruppe](https://www.h-its.org/de/forschung/cst/){target="_blank"} am Heidelberger Institut für Theoretische Studien.
 
-Sie können uns unter forecasthub@econ.kit.edu kontaktieren.
+Sie können uns unter forecasthub@econ.kit.edu kontaktieren. Technische Hinweise können Sie auch als Issue in unserem [GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub/){target="_blank"} abgeben.
 
 ---
 
-This platform is run by members of the [Chair of Econometrics and Statistics](https://statistik.econ.kit.edu/english/index.php) at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/research/cst/) at Heidelberg Institute for Theoretical Studies.
+This platform is run by members of the [Chair of Econometrics and Statistics](https://statistik.econ.kit.edu/english/index.php){target="_blank"} at Karlsruhe Institute of Technology and the [Computational Statistics Group](https://www.h-its.org/research/cst/){target="_blank"} at Heidelberg Institute for Theoretical Studies.
 
-You can contact us at forecasthub@econ.kit.edu.
+You can contact us at forecasthub@econ.kit.edu. Technical remarks can also be made as issues in our [GitHub repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub/){target="_blank"}.
