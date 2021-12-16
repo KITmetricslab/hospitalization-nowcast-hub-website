@@ -14,12 +14,12 @@ blockquote {
 </style>
 
 <br>
-
-#### Diese Seite befindet sich derzeit im Aufbau.
-
+*Hinweis: Auch über den Jahreswechsel 2021/22 planen wir, tägliche Updates zur Verfügung zu stellen, können jedoch nicht ausschließen, dass es zu Verzögerungen kommt. Außerdem können Nowcasts weniger verlässlich sein, wenn sich Meldeverzögerungen anders verhalten als im Rest des Jahres.*
 <br>
 
 ### FAQ
+
+Für eine Zusammenfassung des Projekts siehe auch [diesen Artikel](https://www.covid19.statistik.uni-muenchen.de/pdfs/codag-bericht-24.pdf){target="_blank"} in der *CODAG Report*-Reihe
 
 <details><summary>Was ist das Ziel dieser Plattform?</summary>
 <blockquote>
@@ -92,7 +92,9 @@ Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzög
 
 <details><summary>Wie oft werden die Nowcasts aktualisiert?</summary>
 <blockquote>
-Die Nowcasts werden werktäglich aktualisiert (Montag bis Freitag). Solange ein Team seinen Nowcast noch nicht aktualisiert hat wird der Nowcast des Vortages angezeigt (oder der neueste Nowcast aus den letzten sieben Tagen). Zum Beispiel wird der RKI-Nowcast derzeit nur donnerstags aktualisiert, wenn der neue Wochenbericht erscheint. Wir zeigen diesen Nowcast jeweils bis eine neuere Fassung erscheint.
+Die Nowcasts werden täglich gegen 13:00 aktualisiert. Solange ein Team seinen Nowcast noch nicht aktualisiert hat wird der Nowcast des Vortages angezeigt (oder der neueste Nowcast aus den letzten sieben Tagen).
+<br>
+Gelegentlich kann es zu Verzögerungen kommen, z.B. wenn die Ausgangsdaten des RKI später als gewöhnlich online erscheinen. Wir versuchen, auch in diesem Fall zeitnah aktualisierte Nowcasts zu erstellen, jedoch benötigen manche der Modelle eine gewisse Rechenzeit. **Über den Jahreswechsel ist damit zu rechnen, dass derartige Verzögerungen auftreten und möglicherweise an einzelnen Tagen Nowcasts nicht oder erst sehr spät verfügbar werden.**
 </blockquote>
 </details>
 
@@ -134,7 +136,7 @@ Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Stati
 - [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/){target="_blank"}
 
 
-Außerdem zeigen wir die jeweils aktuellsten Nowcasts aus den [Wochenberichten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} des Robert Koch Instituts.
+Außerdem zeigen wir die jeweils aktuellsten [adjustierten Hospitalisierungsinzidenzen](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"} des Robert Koch Instituts.
 
 <br>
 
@@ -200,6 +202,21 @@ Ein semiparametrisches Nowcasting-Verfahren für rechszensierte Hospitalisierung
 </blockquote>
 </details>
 
+<br>
+
+<details><summary>*NowcastHub-MeanEnsemble* </summary>
+<blockquote>
+Dieses Ensemble berechnet sich als der quantilsweise Mittelwert der eingereichten Modelle mit vollständigen Nowcasts (28 bis 0 Tage vor dem aktuellen Datum).
+</blockquote>
+</details>
+
+<details><summary>*NowcastHub-MedianEnsemble* </summary>
+<blockquote>
+Dieses Ensemble berechnet sich als der quantilsweise Median der eingereichten Modelle mit vollständigen Nowcasts (28 bis 0 Tage vor dem aktuellen Datum).
+</blockquote>
+</details>
+
+<br>
 
 <br>
 

@@ -15,11 +15,13 @@ blockquote {
 
 <br>
 
-#### This page is currently under construction.
+*Note: We plan to also provide daily updates during the holiday period 2021/22, but cannot exclude occasional delays. Also, nowcasts may be less reliable if reporting delay patterns differ from the rest of the year.*
 
 <br>
 
 ### FAQ
+
+For a summary of the project see also [this article](https://www.covid19.statistik.uni-muenchen.de/pdfs/codag-bericht-24.pdf){target="_blank"} in the *CODAG Report* series (in German).
 
 <details><summary>What is the goal of this platform?</summary>
 <blockquote>
@@ -89,7 +91,9 @@ The central assumption on which most nowcasts are built is that the delays betwe
 
 <details><summary>How often are nowcasts updated?</summary>
 <blockquote>
-Nowcasts are updated on working days (Monday through Friday). As long as a team have not updated their nowcast yet, their nowcast from the previous day (or the most recent nowcasts which is not older than seven days) is displayed. For instance, the RKI nowcast is currently only made available on Thursdays, when a new weekly report appears. We always display this nowcast until a newer version becomes available.
+Nowcasts are updated daily at around 1pm. As long as a team have not updated their nowcast yet, their nowcast from the previous day (or the most recent nowcasts which is not older than seven days) is displayed. 
+<br>
+Occasionally there may be delays, e.g. if input data from RKI become available later than usually. In this case we try to update nowcasts in a timely manner, but some models require a certain time to compute. **Over hte holiday period 2021/22 we expect such delays to occur occasionally, and updates may be considerably late or missing on certain days.**
 </blockquote>
 </details>
 
@@ -131,11 +135,11 @@ This platform is run by members of the [Chair of Statistics and Econometrics](ht
 - [Süddeutsche Zeitung](https://www.sueddeutsche.de/thema/Coronavirus){target="_blank"}
 - [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/){target="_blank"}
 
-Moreover we display the most current nowcasts from the [weekly reports](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} of the Robert Koch Institute.
+Moreover we display the most current [adjusted hospitalization incidences](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"} from Robert Koch Institute.
 
 <br>
 
-### Methods description
+### Methods descriptions
 
 <details><summary>*ILM-prop* (TU Ilmenau)</summary>
 <blockquote>
@@ -175,7 +179,7 @@ As the RKI nowcasts are currently only communiated via the weekly reports, we re
 
 <details><summary>*SU-hier_bayes* (Stockholm University)</summary>
 <blockquote>
-tba
+Nowcasts are based on a modified version of the model from [Günther et al 2020](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000112).
 </blockquote>
 </details>
 
@@ -188,6 +192,20 @@ SZ estimates the nowcasting values for the hospitalization incidence based on di
 <details><summary>*epiforecasts-independent* (London School of Hygiene and Tropical Medicine / epiforecasts)</summary>
 <blockquote>
 A semi-parametric nowcasting method for right censored hospitalisations by date of positive test. Hospitalisations are modelled using a random walk on the log scale. Reporting delays are then modelled parametrically using a lognormal distribution with the log mean and log standard deviation each modelled using a weekly random walk with a pooled standard deviation. Report date effects are modelling using a random effect for day of the week with public holidays assumed to be reported like Sundays. Age groups and locations are nowcast independently (thus the name of the model). The model is implemented using the [epinowcast R package](https://epiforecasts.io/epinowcast){target="_blank"}. The analysis code is available [here](https://github.com/epiforecasts/eval-germany-sp-nowcasting). Note: There is a second version of this model currently not displayed in which the different time series are modelled in a hierarchical manner ([Epiforecasts-hierarchical](https://github.com/KITmetricslab/hospitalization-nowcast-hub/tree/main/data-processed/Epiforecasts-hierarchical){target="_blank"}).
+</blockquote>
+</details>
+
+<br>
+
+<details><summary>*NowcastHub-MeanEnsemble* </summary>
+<blockquote>
+This ensemble is created by taking quantile-wise means of the available member models providing complete nowcasts (28 days through 0 days before the current date).
+</blockquote>
+</details>
+
+<details><summary>*NowcastHub-MedianEnsemble* </summary>
+<blockquote>
+This ensemble is created by taking quantile-wise medians of the available member models providing complete nowcasts (28 days through 0 days before the current date).
 </blockquote>
 </details>
 
