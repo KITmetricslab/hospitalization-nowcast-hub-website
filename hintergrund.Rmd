@@ -122,6 +122,12 @@ Das Hauptziel dieses Projekts ist es, Nowcasts in Echtzeit zur Verfügung zu ste
 </blockquote>
 </details>
 
+<details><summary>Wird unterschieden zwischen Hospitalisierungen, bei denen COVID-19 der Hauptgrund der Hospitalisierung ist und solchen, bei denen dies nicht der Fall ist?</summary>
+<blockquote>
+Die Hospitalisierungsinzidenz wie vom RKI definiert unterscheidet nicht nach dem Hauptgrund der Hospitalisierung ("mit oder wegen COVID"). Unsere Analysen bauen auf diesem Indikator auf und betreffen einzig die Problematik der Verzüge und der resultierenden Unvollständigkeit der letzten Inzidenzwerte. Die Schwierigkeit, dass nur ein Teil der erfassten Hospitalisierungen tatsächlich aufgrund einer COVID-Erkrankung erfolgen verbleibt also. Nach unserem Kenntnisstand stehen derzeit keine belastbaren Daten zu dieser Frage zur Verfügung. Mit der mutmaßlich im Mittel milder verlaufenden Omikron-Variante ist es möglich, dass sich der Anteil an Hospitalisierungen, bei denen COVID nur eine Begleiterscheinung ist, erhöht. Dies kann die Vergleichbarkeit der Inzidenzwerte über die verschiedenen Phasen der Pandemie hinweg einschränken und muss bei der Interpretation berücksichtigt werden. Allerdings ist auch zu beachten, dass selbst eine Hospitalisierung, bei der COVID nicht der Einlieferungsgrund ist für die Krankenhäuser Zusatzaufwand bedeutet, etwa aufgrund von Isolationsmaßnahmen.
+</blockquote>
+</details>
+
 <br>
 
 ### Beteiligte Gruppen
