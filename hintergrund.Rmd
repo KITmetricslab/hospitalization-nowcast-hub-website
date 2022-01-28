@@ -54,6 +54,12 @@ Der [Regierungsbeschluss vom 18.11.2021 (Punkt 9)](https://www.bundesregierung.d
 </blockquote>
 </details>
 
+<details><summary>Wird unterschieden zwischen Hospitalisierungen, bei denen COVID-19 der Hauptgrund der Hospitalisierung ist und solchen, bei denen dies nicht der Fall ist?</summary>
+<blockquote>
+Die Hospitalisierungsinzidenz wie vom RKI definiert unterscheidet nicht nach dem Hauptgrund der Hospitalisierung ("mit oder wegen COVID"). Unsere Analysen bauen auf diesem Indikator auf und betreffen einzig die Problematik der Verzüge und der resultierenden Unvollständigkeit der letzten Inzidenzwerte. Die Schwierigkeit, dass nur ein Teil der erfassten Hospitalisierungen tatsächlich aufgrund einer COVID-Erkrankung erfolgen verbleibt also. Nach unserem Kenntnisstand stehen derzeit keine belastbaren Daten zu dieser Frage zur Verfügung. Mit der mutmaßlich im Mittel milder verlaufenden Omikron-Variante ist es möglich, dass sich der Anteil an Hospitalisierungen, bei denen COVID nur eine Begleiterscheinung ist, erhöht. Dies kann die Vergleichbarkeit der Inzidenzwerte über die verschiedenen Phasen der Pandemie hinweg einschränken und muss bei der Interpretation berücksichtigt werden. Allerdings ist auch zu beachten, dass selbst eine Hospitalisierung, bei der COVID nicht der Einlieferungsgrund ist für die Krankenhäuser Zusatzaufwand bedeutet, etwa aufgrund von Isolationsmaßnahmen.
+</blockquote>
+</details>
+
 <details><summary>Was bedeutet Nowcasting und wie sollten die Nowcasts interpretiert werden?</summary>
 <blockquote>
 Nowcasting bezeichnet ein statistisches Korrekturverfahren, das ausgehend von vorläufigen Messungen schätzt, welchen Wert die selben Größen in einer späteren finalen Version eines Datensatzes annehmen werden. In unserem Anwendunsfall schätzen wir beruhend auf den Hospitalisierungen, die bis zum heutigen Tag für ein bestimmtes Meldedatum (siehe oben) bekannt geworden sind, wie hoch die Zahl der Hospitalisierungen für dieses Datum nach Vorliegen aller Meldungen insgesamt liegen wird. Dabei werden Daten aus der Vergangenheit mit vollständiger Information genutzt.  
@@ -119,12 +125,6 @@ Eine weitere Alternative zum Nowcasting besteht darin, für jedes Meldedatum die
 <details><summary>Was ist mit "nachträglich erstellten Nowcasts" gemeint?</summary>
 <blockquote>
 Das Hauptziel dieses Projekts ist es, Nowcasts in Echtzeit zur Verfügung zu stellen um eine verbesserte Lageeinschätzung zu ermöglichen. Um verschiedene Modellierungsansätze besser wissenschaftlich vergleichen zu können, sammeln wir aber auch Nowcasts, die rückwirkend erzeugt wurden. So können wir evaluieren, wie diese in der Vergangenheit abgeschnitten hätten. Wichtig für einen fairen Vergleich ist hierbei, dass auch bei den nachträglich erstellten Nowcasts nur Daten in das Modell einfließen, die zum jeweiligen Nowcast-Zeitpunkt bereits verfügbar waren.
-</blockquote>
-</details>
-
-<details><summary>Wird unterschieden zwischen Hospitalisierungen, bei denen COVID-19 der Hauptgrund der Hospitalisierung ist und solchen, bei denen dies nicht der Fall ist?</summary>
-<blockquote>
-Die Hospitalisierungsinzidenz wie vom RKI definiert unterscheidet nicht nach dem Hauptgrund der Hospitalisierung ("mit oder wegen COVID"). Unsere Analysen bauen auf diesem Indikator auf und betreffen einzig die Problematik der Verzüge und der resultierenden Unvollständigkeit der letzten Inzidenzwerte. Die Schwierigkeit, dass nur ein Teil der erfassten Hospitalisierungen tatsächlich aufgrund einer COVID-Erkrankung erfolgen verbleibt also. Nach unserem Kenntnisstand stehen derzeit keine belastbaren Daten zu dieser Frage zur Verfügung. Mit der mutmaßlich im Mittel milder verlaufenden Omikron-Variante ist es möglich, dass sich der Anteil an Hospitalisierungen, bei denen COVID nur eine Begleiterscheinung ist, erhöht. Dies kann die Vergleichbarkeit der Inzidenzwerte über die verschiedenen Phasen der Pandemie hinweg einschränken und muss bei der Interpretation berücksichtigt werden. Allerdings ist auch zu beachten, dass selbst eine Hospitalisierung, bei der COVID nicht der Einlieferungsgrund ist für die Krankenhäuser Zusatzaufwand bedeutet, etwa aufgrund von Isolationsmaßnahmen.
 </blockquote>
 </details>
 
