@@ -15,7 +15,7 @@ blockquote {
 
 <br>
 
-*Note: We plan to also provide daily updates during the holiday period 2021/22, but cannot exclude occasional delays. Also, nowcasts may be less reliable if reporting delay patterns differ from the rest of the year.*
+*Note: Nowcasts may be less reliable if reporting delay patterns differ from previous periods, e.g. to a high burden on the reporting system. Also note that the share of persons entering into the hospitalization incidence whose primary reason for hospitalization is actually COVID-19 may change over time (e.g., due to the presumably less severe omicron variant).*
 
 <br>
 
@@ -33,11 +33,19 @@ At the same time we have a scientific interest to compare different nowcasting m
 
 <details><summary>What is the 7-day hospitalization incidence?</summary>
 <blockquote>
-We follow the definition by Robert Koch Institute. Today's seven-day hospitalization incidence is the number of hospitalized cases of COVID-19 (in absolute numbers or per 100.000 population) whose *Meldedatum*, i.e. the date when the respective infection was electronically recorded at the local health authorities was in the 7 preceding days. It is thus *not* equivalent to the number of new hospitalizations during the last 7 days. Also, the 7-day hospitalization incidence does not take into account whether the reason of hospitalization was COVID-19 or not.
+We follow the definition by Robert Koch Institute. Today's seven-day hospitalization incidence is the number of hospitalized cases of COVID-19 (in absolute numbers or per 100.000 population) whose *Meldedatum*, i.e. the date when the respective infection was electronically recorded at the local health authorities was in the 7 preceding days. It is thus *not* equivalent to the number of new hospitalizations during the last 7 days. Also, the 7-day hospitalization incidence does not take into account whether the reason of hospitalization was COVID-19 or not (see next question).
 <br>
 Further information on the 7-day hospitalization incidence (in German) are available on the [GitHub site of Robert Koch-Institute](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
 <br>
 In this context we note that some German states (Bundesländer) also publish their own hospitalization incidences which follow different definitions (e.g., temporal aggregation by date of hospitalization rather than *Meldedatum* of the infection; see [this news item by NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html){target="_blank"})). We focus exclusively on the indicator provided by RKI.
+</blockquote>
+</details>
+
+<details><summary>Is there a distinction between hospitalizations with COVID-19 as the main reason and hospitalizations of infected persons due to other reasons?</summary>
+<blockquote>
+The hospitalization incidence as defined by RKI does not take into account the main reason of hospitalization ("with or because of COVID"). Our analyses build directly upon this indicator and concern purely the problem of delays and incomplete most recent data points (see next question). The difficulty that only part of the hospitalizations are due to illness from COVID thus remains. To our knowledge there are currently no reliable national-level data on this question. Given the presumably lower average severity of infections with the omicron variant it is possible that the share of hospitalizations where COVID is not the reason of hospitalization increases. This can limit the comparability of incidence values across different phases of the pandemic and needs to be taken into account in their interpretation. However, it should be noted that hospitalizations with COVID as a secondary diagnosis nonetheless imply additional efforts for hospitals, e.g. in terms of isolation measures.
+<br>
+A more detailed account on this question can be found in this [news item by German public broadcaster SWR](https://www.swr.de/swraktuell/rheinland-pfalz/mit-oder-wegen-corona-im-krankenhaus-100.html){target="_blank"} (in German). According to this article, in the German state of Rheinland-Pfalz, approximately on third of the hospitalization incidence was due to cases where COVID-19 was the primary reason of hospitalization.
 </blockquote>
 </details>
 
@@ -51,13 +59,7 @@ The daily values of the hospitalization incidence aggregated by *Meldedatum* are
 
 <details><summary>What does that mean for the thresholds which have been defined for the hospitalization incidence?</summary>
 <blockquote>
-The thresholds of 1.5 and 5 [suggested by RKI in September  (Fig 1)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Downloads/control-covid-2021-09-22.pdf?__blob=publicationFile) explicitly refer to preliminary values as available on the respective date (see "time series of frozen values" below). They thus take into account the incompleteness of the data. The  [governmental decision from 18 November 2021 (Paragraph 9)](https://www.bundesregierung.de/resource/blob/974430/1982598/defbdff47daf5f177586a5d34e8677e8/2021-11-18-mpk-data.pdf?download=1) does not address this distinction explicitly, but according to [media coverage](https://www.ndr.de/nachrichten/info/Fragen-und-Antworten-zur-Hospitalisierungsinzidenz,hospitalisierungsinzidenz102.html) the thresholds of 3, 6 and 9 are equally applied to the preliminary values.
-</blockquote>
-</details>
-
-<details><summary>Is there a distinction between hospitalizations with COVID-19 as the main reason and hospitalizations of infected persons due to other reasons?</summary>
-<blockquote>
-The hospitalization incidence as defined by RKI does not take into account the main reason of hospitalization ("with or because of COVID"). Our analyses build directly upon this indicator and concern purely the problem of delays and incomplete most recent data points. The difficulty that only part of the hospitalizations are due to illness from COVID thus remains. To our knowledge there are currently no reliable data on this question. Given the presumably lower average severity of infections with the omicron variant it is possible that the share of hospitalizations where COVID is not the reason of hospitalization increases. This can limit the comparability of incidence values across different phases of the pandemic and needs to be taken into account in their interpretation. However, it should be noted that hospitalizations with COVID as a secondary diagnosis nonetheless imply additional efforts for hospitals, e.g. in terms of isolation measures. 
+The thresholds of 1.5 and 5 [suggested by RKI in September 2021 (Fig 1)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Downloads/control-covid-2021-09-22.pdf?__blob=publicationFile) explicitly refer to preliminary values as available on the respective date (see "time series of frozen values" below). They thus take into account the incompleteness of the data. The  [governmental decision from 18 November 2021 (Paragraph 9)](https://www.bundesregierung.de/resource/blob/974430/1982598/defbdff47daf5f177586a5d34e8677e8/2021-11-18-mpk-data.pdf?download=1) does not address this distinction explicitly, but according to [media coverage](https://www.ndr.de/nachrichten/info/Fragen-und-Antworten-zur-Hospitalisierungsinzidenz,hospitalisierungsinzidenz102.html) the thresholds of 3, 6 and 9 are equally applied to the preliminary values.
 </blockquote>
 </details>
 
@@ -91,7 +93,7 @@ The evaluation of the different methods is an important goal of this project (se
 
 <details><summary>What are possible difficulties and weaknesses? When are results to be interpreted with special care?</summary>
 <blockquote>
-The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer. For instance, if average delays get loner, nowcasts may tend to underestimate the true values. It must be assumed that this is currently (December 2021) the case for certain fedeal states, or may be the case in weeks to come.
+The central assumption on which most nowcasts are built is that the delays between the *Meldedatum* and the apppearance of a hospitalization in the RKI data set will follow similar patterns in the future as they did in the past. If this is not the case, e.g., due to major changes in testing strategies or an overload of the health system, the quality of nowcasts may suffer. For instance, if average delays get loner, nowcasts may tend to underestimate the true values. It must be assumed that this is currently (December 2021) the case for certain federal states, or may be the case in weeks to come.
 </blockquote>
 </details>
 
@@ -99,13 +101,13 @@ The central assumption on which most nowcasts are built is that the delays betwe
 <blockquote>
 Nowcasts are updated daily at around 1pm. As long as a team have not updated their nowcast yet, their nowcast from the previous day (or the most recent nowcasts which is not older than seven days) is displayed. 
 <br>
-Occasionally there may be delays, e.g. if input data from RKI become available later than usually. In this case we try to update nowcasts in a timely manner, but some models require a certain time to compute. **Over hte holiday period 2021/22 we expect such delays to occur occasionally, and updates may be considerably late or missing on certain days.**
+Occasionally there may be delays, e.g. if input data from RKI become available later than usually. In this case we try to update nowcasts in a timely manner, but some models require a certain time to compute.
 </blockquote>
 </details>
 
-<details><summary>Why are nowcasts for the current and previous day not shown by default?</summary>
+<details><summary>Why is there a switch to remove nowcasts for the current and previous day?</summary>
 <blockquote>
-For the last two days a particularly large number of additional reports must be expected. Therefore, nowcasts for these days are less reliable than for days which are further in the past. For this reason we do not show nowcasts for the last two days by default and recomend to interpret them with special care.
+For the last two days a particularly large number of additional reports must be expected. Therefore, nowcasts for these days may be less reliable than for days which are further in the past. For this reason we did not show nowcasts for the last two days by default during the first few weeks of our project. In the meantime we have found that, if one takes into account the wider uncertainty intervals, the nowcasts for these two days are not actually less reliable than the remaining ones. We have therefore decided to show them by default.
 </blockquote>
 </details>
 
@@ -177,9 +179,7 @@ This model is a simplified version of the model presented by van de Kassteele, E
 
 <details><summary>*RKI-weekly_report* (Robert Koch Institut)</summary>
 <blockquote>
-These nowcasts are taken from the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} (updated on Thursdays). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
-<br>
-As the RKI nowcasts are currently only communiated via the weekly reports, we read out the numbers from the respective figures, which may lead to minor imprecisions.
+These are the corrected seven-day hospitalization incidences first published on Thursdays in the [weekly reports of the Robert Koch Institute](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} and now updated on a daily basis e.g. in the [COVID-19 Trends Dashboard](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/COVID-19-Trends/COVID-19-Trends.html?__blob=publicationFile#/home). These are based on a modified version of the [nowcasting method for 7-day case incidences](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
 </blockquote>
 </details>
 
@@ -220,6 +220,8 @@ This ensemble is created by taking quantile-wise medians of the available member
 ### GitHub Repository and re-use of results
 
 All nowcasts are available under open licences in a [public GitHub repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub). They can be re-used for a broad range of purposes provided that the source is acknowledged (check the respective license files in the repository for details). You are invited to briefly get in touch with the organizing team or the creators of the respective nowcasts when re-using them publicly.
+<br>
+Nowcasts from our platform are currently used e.g. by [Zeit Online](https://www.zeit.de/wissen/aktuelle-corona-zahlen-karte-deutschland-landkreise), [Neue Zürcher Zeitung](https://www.nzz.ch/visuals/corona-deutschland-alle-zahlen-und-regeln-ld.1656184), [Norddeutscher Rundfunk](https://www.ndr.de/nachrichten/info/Corona-Wie-hoch-ist-die-Hospitalisierungsrate-wirklich-,hospitalisierung106.html) and [Südwestrundfunk](https://www.swr.de/swraktuell/coronavirus-karte-100.html).
 
 <br>
 

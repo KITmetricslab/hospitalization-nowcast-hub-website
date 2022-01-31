@@ -14,7 +14,7 @@ blockquote {
 </style>
 
 <br>
-*Hinweis: Auch über den Jahreswechsel 2021/22 planen wir, tägliche Updates zur Verfügung zu stellen, können jedoch nicht ausschließen, dass es zu Verzögerungen kommt. Außerdem können Nowcasts weniger verlässlich sein, wenn sich Meldeverzögerungen anders verhalten als im Rest des Jahres.*
+*Hinweis: Nowcasts können weniger verlässlich sein, wenn sich Meldeverzögerungen z.B. aufgrund starken Meldeaufkommens anders verhalten als in früheren Phasen der Pandemie. Außerdem ist zu beachten, dass sich der Anteil der in der Hospitalisierungsinzidenz erfassten Personen, bei denen COVID-19 tatsächlich der primäre Hospitalisieurngsgrund ist über die Zeit ändern kann (z.B. aufgrund der vermutlich milderen Omikron-Variante). Dies schränkt de Vergleichbarkeit über verschiedene Zeiträume hinweg ein.*
 <br>
 
 ### FAQ
@@ -31,11 +31,19 @@ Gleichzeitig haben wir ein wissenschaftliches Interesse, verschiedene Nowcasting
 
 <details><summary>Was ist die 7-Tage-Hospitalisierungsinzidenz?</summary>
 <blockquote>
-Wir richten uns hier nach der Definition des Robert-Koch-Instituts. Die heutige 7-Tage-Hospitalisierungsinzidenz ist die Anzahl an hospitalisierten COVID-19 Fällen (absolut oder pro 100.000 Einwohner) deren Meldedatum, also das Datum an dem das lokale Gesundheitsamt die zugehörige COVID-19 Infektion elektronisch erfasst hat, in den 7 vorangegangenen Tagen liegt. Es handelt sich also *nicht* um die Zahl der neuen Hospitalisierungen in den letzten 7 Tagen. Auch berücksichtigt die 7-Tage-Hospitalisierungsinzidenz nicht, ob der Hospitalisierungsgrund COVID-19 oder ein anderer ist.
+Wir richten uns hier nach der Definition des Robert-Koch-Instituts. Die heutige 7-Tage-Hospitalisierungsinzidenz ist die Anzahl an hospitalisierten COVID-19 Fällen (absolut oder pro 100.000 Einwohner) deren Meldedatum, also das Datum an dem das lokale Gesundheitsamt die zugehörige COVID-19 Infektion elektronisch erfasst hat, in den 7 vorangegangenen Tagen liegt. Es handelt sich also *nicht* um die Zahl der neuen Hospitalisierungen in den letzten 7 Tagen. Auch berücksichtigt die 7-Tage-Hospitalisierungsinzidenz nicht, ob der Hospitalisierungsgrund COVID-19 oder ein anderer ist (siehe nächste Frage).
 <br>
 Weitere Informationen sowie die aktuellen und vergangenen 7-Tage-Hospitalisierungsinzidenzen finden sich auf der [GitHub Seite des Robert Koch-Instituts](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"}.
 <br>
-Wir weisen in diesem Zusammenhang darauf hin, dass manche Bundesländer auch eingene Hospitalisiserungsinzidenzen veröffentlichen, deren Definitionen von der des RKI abweichen (z.B. zeitliche Aggregierung nach Hospitalisierungsdatum statt Meldedatum der Infektion; siehe [Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html){target="_blank"}). Wir betrachten ausschließlich den Indikator des RKI.
+Wir weisen in diesem Zusammenhang darauf hin, dass manche Bundesländer auch eigene Hospitalisiserungsinzidenzen veröffentlichen, deren Definitionen von der des RKI abweichen (z.B. zeitliche Aggregierung nach Hospitalisierungsdatum statt Meldedatum der Infektion; siehe [Nachrichtenartikel des NDR](https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html){target="_blank"}). Wir betrachten ausschließlich den Indikator des RKI.
+</blockquote>
+</details>
+
+<details><summary>Wird unterschieden zwischen Hospitalisierungen, bei denen COVID-19 der Hauptgrund der Hospitalisierung ist und solchen, bei denen dies nicht der Fall ist?</summary>
+<blockquote>
+Die Hospitalisierungsinzidenz wie vom RKI definiert unterscheidet nicht nach dem Hauptgrund der Hospitalisierung ("mit oder wegen COVID"). Unsere Analysen bauen auf diesem Indikator auf und betreffen einzig die Problematik der Verzüge und der resultierenden Unvollständigkeit der letzten Inzidenzwerte (siehe nächste Frage). Die Schwierigkeit, dass nur ein Teil der erfassten Hospitalisierungen tatsächlich aufgrund einer COVID-Erkrankung erfolgen verbleibt also. Nach unserem Kenntnisstand stehen derzeit auf Bundesebene keine belastbaren Daten zu dieser Frage zur Verfügung. Mit der mutmaßlich im Mittel milder verlaufenden Omikron-Variante ist es möglich, dass sich der Anteil an Hospitalisierungen, bei denen COVID nur eine Begleiterscheinung ist, erhöht. Dies kann die Vergleichbarkeit der Inzidenzwerte über die verschiedenen Phasen der Pandemie hinweg einschränken und muss bei der Interpretation berücksichtigt werden. Allerdings ist auch zu beachten, dass selbst eine Hospitalisierung, bei der COVID nicht der Einlieferungsgrund ist für die Krankenhäuser Zusatzaufwand bedeutet, etwa aufgrund von Isolationsmaßnahmen.
+<br>
+Eine umfassendere Darstellung dieser Thematik findet sich in diesem [Nachrichtenartikel des SWR](https://www.swr.de/swraktuell/rheinland-pfalz/mit-oder-wegen-corona-im-krankenhaus-100.html){target="_blank"}, demzufolge Ende Januar 2022 im Bundesland Rheinland-Pfalz etwa ein Drittel der Hospitalisierungsinzidenz auf Fälle mit COVID-19 als primärem Hospitalisierungsgrund entfiel.
 </blockquote>
 </details>
 
@@ -49,14 +57,8 @@ Deswegen werden die täglichen nach Meldedatum ausgewiesenen Hospitalisierungen 
 
 <details><summary>Was bedeutet das für die Schwellenwerte, die für die 7-Tage-Hospitalisierungsinzidenz festgelegt wurden?</summary>
 <blockquote>
-Die im September [vom RKI vorgeschlagenen Schwellenwerte  (Abbildung 1)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Downloads/control-covid-2021-09-22.pdf?__blob=publicationFile) von 1.5 und 5 beziehen sich ausdrücklich auf die vorläufigen tagesaktuell berichteten Werte (siehe Punkt "eingefrorene Zeitreihe" unten). Sie beziehen die Unvollständigkeit der Daten also mit ein.
+Die im September 2021 [vom RKI vorgeschlagenen Schwellenwerte  (Abbildung 1)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Downloads/control-covid-2021-09-22.pdf?__blob=publicationFile) von 1.5 und 5 beziehen sich ausdrücklich auf die vorläufigen tagesaktuell berichteten Werte (siehe Punkt "eingefrorene Zeitreihe" unten). Sie beziehen die Unvollständigkeit der Daten also mit ein.
 Der [Regierungsbeschluss vom 18.11.2021 (Punkt 9)](https://www.bundesregierung.de/resource/blob/974430/1982598/defbdff47daf5f177586a5d34e8677e8/2021-11-18-mpk-data.pdf?download=1) spezifiziert nicht explizit, ob sich die Schwellenwerte 3, 6 und 9 auf vorläufige tagesaktuelle oder auf finale Werte beziehen. [Medienberichten](https://www.ndr.de/nachrichten/info/Fragen-und-Antworten-zur-Hospitalisierungsinzidenz,hospitalisierungsinzidenz102.html) zufolge werden Schwellenwerte allerdings ebenfalls auf die vorläufigen tageaktuellen Werte angewendet.
-</blockquote>
-</details>
-
-<details><summary>Wird unterschieden zwischen Hospitalisierungen, bei denen COVID-19 der Hauptgrund der Hospitalisierung ist und solchen, bei denen dies nicht der Fall ist?</summary>
-<blockquote>
-Die Hospitalisierungsinzidenz wie vom RKI definiert unterscheidet nicht nach dem Hauptgrund der Hospitalisierung ("mit oder wegen COVID"). Unsere Analysen bauen auf diesem Indikator auf und betreffen einzig die Problematik der Verzüge und der resultierenden Unvollständigkeit der letzten Inzidenzwerte. Die Schwierigkeit, dass nur ein Teil der erfassten Hospitalisierungen tatsächlich aufgrund einer COVID-Erkrankung erfolgen verbleibt also. Nach unserem Kenntnisstand stehen derzeit keine belastbaren Daten zu dieser Frage zur Verfügung. Mit der mutmaßlich im Mittel milder verlaufenden Omikron-Variante ist es möglich, dass sich der Anteil an Hospitalisierungen, bei denen COVID nur eine Begleiterscheinung ist, erhöht. Dies kann die Vergleichbarkeit der Inzidenzwerte über die verschiedenen Phasen der Pandemie hinweg einschränken und muss bei der Interpretation berücksichtigt werden. Allerdings ist auch zu beachten, dass selbst eine Hospitalisierung, bei der COVID nicht der Einlieferungsgrund ist für die Krankenhäuser Zusatzaufwand bedeutet, etwa aufgrund von Isolationsmaßnahmen.
 </blockquote>
 </details>
 
@@ -92,7 +94,7 @@ Die Evaluation der verschiedenen Verfahren ist ein wichtiges Ziel dieses Projekt
 
 <details><summary>Was sind mögliche Probleme und Schwächen? Wann muss man bei der Interpretation besonders vorsichtig sein?</summary>
 <blockquote>
-Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzögerungen zwischen Meldedatum und Erscheinen einer Hospitalisierung in den Daten des RKI auch in Zukunft ähnlichen Mustern folgen werden wie in der Vergangenheit. Ist dies nicht mehr der Fall, etwa aufgrund gewichtiger Änderungen der Teststrategie oder einer Überlastung der Gesundheitsämter, so kann die Qualität der Nowcasts beeinträchtigt werden. Werden etwa die mittleren Verzögerungen größer, so können die Nowcasts dazu neigen, die wahren Werte zu unterschätzen. Es ist anzunehmen, dass dies für einige Bundesländer derzeit (Dezember 2021) der Fall ist oder in den nächsten Wochen der Fall sein wird.
+Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzögerungen zwischen Meldedatum und Erscheinen einer Hospitalisierung in den Daten des RKI auch in Zukunft ähnlichen Mustern folgen werden wie in der Vergangenheit. Ist dies nicht mehr der Fall, etwa aufgrund gewichtiger Änderungen der Teststrategie oder einer Überlastung der Gesundheitsämter, so kann die Qualität der Nowcasts beeinträchtigt werden. Werden etwa die mittleren Verzögerungen größer, so können die Nowcasts dazu neigen, die wahren Werte zu unterschätzen.
 </blockquote>
 </details>
 
@@ -100,13 +102,13 @@ Die zentrale Annahme, auf der die meisten Nowcasts beruhen ist, dass die Verzög
 <blockquote>
 Die Nowcasts werden täglich gegen 13:00 aktualisiert. Solange ein Team seinen Nowcast noch nicht aktualisiert hat wird der Nowcast des Vortages angezeigt (oder der neueste Nowcast aus den letzten sieben Tagen).
 <br>
-Gelegentlich kann es zu Verzögerungen kommen, z.B. wenn die Ausgangsdaten des RKI später als gewöhnlich online erscheinen. Wir versuchen, auch in diesem Fall zeitnah aktualisierte Nowcasts zu erstellen, jedoch benötigen manche der Modelle eine gewisse Rechenzeit. **Über den Jahreswechsel ist damit zu rechnen, dass derartige Verzögerungen auftreten und möglicherweise an einzelnen Tagen Nowcasts nicht oder erst sehr spät verfügbar werden.**
+Gelegentlich kann es zu Verzögerungen kommen, z.B. wenn die Ausgangsdaten des RKI später als gewöhnlich online erscheinen. Wir versuchen, auch in diesem Fall zeitnah aktualisierte Nowcasts zu erstellen, jedoch benötigen manche der Modelle eine gewisse Rechenzeit.
 </blockquote>
 </details>
 
-<details><summary>Wieso werden Nowcasts für den heutigen und den gestrigen Tag standardmäßig nicht angezeigt?</summary>
+<details><summary>Wieso gibt es eine Schaltfläche, um die Nowcasts des heutigen und gestrigen Tages auszublenden?</summary>
 <blockquote>
-Für den heutigen und gestrigen Tag werden besonders viele Fälle nachgemeldet. Dadurch sind auch die Nowcasts für diese Tage weniger zuverlässig als für Tage, die weiter in der Vergangenheit liegen. Wir zeigen die Nowcasts für den heutigen und gestrigen Tag aus diesem Grund standardmäßig nicht an und empfehlen, sie sehr vorsichtig zu interpretieren.
+Für den heutigen und gestrigen Tag werden besonders viele Fälle nachgemeldet. Dadurch sind auch die Nowcasts für diese Tage weniger zuverlässig als für Tage, die weiter in der Vergangenheit liegen. Zu Beginn unseres Projektes zeigten wir die Nowcasts für den heutigen und gestrigen Tag aus diesem Grund standardmäßig nicht an. Mittlerweile konnten wir feststellen, dass die Nowcasts für diese beiden Tage ähnlich zuverlässig wie für die anderen Tage funktionieren, wenn man die breiteren Unsicherheitsintervalle mit einbezieht. Wir haben deshalb entschieden, sie nun standardmäßig mit einzublenden.
 </blockquote>
 </details>
 
@@ -142,7 +144,7 @@ Diese Plattform wird von Mitgliedern des [Lehrstuhls für Ökonometrie und Stati
 - [London School of Hygiene and Tropical Medicine / epiforecasts](https://epiforecasts.io/){target="_blank"}
 
 
-Außerdem zeigen wir die jeweils aktuellsten [adjustierten Hospitalisierungsinzidenzen](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"} des Robert Koch Instituts.
+Außerdem zeigen wir die [adjustierten Hospitalisierungsinzidenzen](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland){target="_blank"} des Robert Koch Instituts.
 
 <br>
 
@@ -181,9 +183,7 @@ Dieses Modell ist eine vereinfachte Version des Verfahrens von van de Kassteele,
 
 <details><summary>*RKI-weekly_report* (Robert Koch Institut)</summary>
 <blockquote>
-Hierbei handelt es sich um Schätzungen, die jeweils Donnerstags in den [Wochenberichten des Robert Koch Instituts](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} veröffentlicht werden. Diese basieren auf einer modifizierten Variante der [Nowcastingberechnung zur 7-Tage-Inzidenz](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
-<br>
-Da die Nowcast-Schätzung des RKI derzeit nur über den Wochenbericht kommuniziert wird wird sie für diese Plattform aus der jeweiligen Grafik ausgelesen, was zu kleineren Ungenauigkeiten führen kann.
+Hierbei handelt es sich um Schätzungen, die zunächst jeweils Donnerstags in den [Wochenberichten des Robert Koch Instituts](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html){target="_blank"} veröffentlicht wurden und mittlerweile täglich im [COVID-19 Trends Dashboard](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/COVID-19-Trends/COVID-19-Trends.html?__blob=publicationFile#/home) erscheinen. Diese basieren auf einer modifizierten Variante der [Nowcastingberechnung zur 7-Tage-Inzidenz](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html){target="_blank"}.
 </blockquote>
 </details>
 
@@ -229,6 +229,8 @@ Dieses Ensemble berechnet sich als der quantilsweise Median der eingereichten Mo
 ### GitHub Repository und Nutzung von Ergebnissen
 
 Alle Nowcasts sind unter offenen Lizenzen in einem [öffentlichen GitHub Repository](https://github.com/KITmetricslab/hospitalization-nowcast-hub) verfügbar. Sie können für eine Vielzahl von Zwecken weiterverwendet werden, sofern die Quelle angegeben wird (siehe die entsprechenden Lizenzfiles für Details). Wenn Sie Nowcasts aus dieser Plattform für öffentliche Darstellungen weiterverwenden freuen wir uns über eine kurze Nachricht an das Organisationsteam oder die Autoren des jeweiligen Nowcasts.
+<br>
+Derzeit werden Nowcasts aus unserer Plattform z.B. von [Zeit Online](https://www.zeit.de/wissen/aktuelle-corona-zahlen-karte-deutschland-landkreise), der [Neuen Zürcher Zeitung](https://www.nzz.ch/visuals/corona-deutschland-alle-zahlen-und-regeln-ld.1656184) dem [Norddeutschen Rundfunk](https://www.ndr.de/nachrichten/info/Corona-Wie-hoch-ist-die-Hospitalisierungsrate-wirklich-,hospitalisierung106.html) sowie dem [Südwestrundfunk](https://www.swr.de/swraktuell/coronavirus-karte-100.html) verwendet.
 
 <br>
 
