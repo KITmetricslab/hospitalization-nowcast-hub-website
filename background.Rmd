@@ -231,6 +231,19 @@ We are planning to compare the different nowcasting methods in a prospective eva
 
 <br>
 
+### Collection of hospitalization incidences by *Bundesländer*
+
+Some German states (*Bundesländer*) publish hospitalization data which differ from the RKI numbers. These may be less affected by delays or contain additional information on the distinction between hospitalization *with* oe  *because of* COVID-19 (see details on the respective sites):
+[Berlin](https://data.lageso.de/lageso/corona/archiv/berlin-website-2022-02-03.html#start),
+[Bremen](https://www.gesundheit.bremen.de/corona/zahlen/corona-fallzahlen-37649),
+[Mecklenburg-Vorpommern](https://www.lagus.mv-regierung.de/Gesundheit/InfektionsschutzPraevention/Daten-Corona-Pandemie),
+[Niedersachsen](https://www.niedersachsen.de/Coronavirus/aktuelle_lage_in_niedersachsen/niedersachsen-und-corona-aktuelle-leitindikatoren-203487.html),
+[Nordrhein-Westphalen](https://www.giscloud.nrw.de/corona-dashboard-desktop.html), 
+[Rheinland-Pfalz](https://lua.rlp.de/de/unsere-themen/infektionsschutz/meldedaten-coronavirus/covid-19-wochenberichte/), 
+[Sachsen](https://verbraucherschutz.sachsen-anhalt.de/hygiene/infektionsschutz/infektionskrankheiten/coronavirus/).
+
+<br>
+
 ### Related projects and analyses
 
 If you find this platform interesting you may also want to check out:

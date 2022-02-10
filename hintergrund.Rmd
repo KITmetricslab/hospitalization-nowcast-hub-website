@@ -240,6 +240,19 @@ Wir planen, die verschiedenen Nowcasting-Verfahren in einer prospektiven Evaluat
 
 <br>
 
+### Bundeslandspezifische Erhebungen der Hospitalisierungsrate
+
+Einige Bundesländer veröffenltichen vom RKI abweichende Daten zur Hospitalisierungsinzidenz, bei denen die Verzugsproblematik teils weniger ausgeprägt ist oder zusätzliche Informationen zur Unterscheidung zwischen Einlieferungen *mit* oder *wegen* COVID-19 verfügbar sind (Details zur Erhebung sind in der Regel auf den entsprechenden Seiten verfügbar):
+[Berlin](https://data.lageso.de/lageso/corona/archiv/berlin-website-2022-02-03.html#start),
+[Bremen](https://www.gesundheit.bremen.de/corona/zahlen/corona-fallzahlen-37649),
+[Mecklenburg-Vorpommern](https://www.lagus.mv-regierung.de/Gesundheit/InfektionsschutzPraevention/Daten-Corona-Pandemie),
+[Niedersachsen](https://www.niedersachsen.de/Coronavirus/aktuelle_lage_in_niedersachsen/niedersachsen-und-corona-aktuelle-leitindikatoren-203487.html),
+[Nordrhein-Westphalen](https://www.giscloud.nrw.de/corona-dashboard-desktop.html), 
+[Rheinland-Pfalz](https://lua.rlp.de/de/unsere-themen/infektionsschutz/meldedaten-coronavirus/covid-19-wochenberichte/), 
+[Sachsen](https://verbraucherschutz.sachsen-anhalt.de/hygiene/infektionsschutz/infektionskrankheiten/coronavirus/).
+
+<br>
+
 ### Verwandte Projekte und Analysen
 
 - Der [europäische](https://covid19forecasthub.eu/){target="_blank"}, [US-amerikanische](https://covid19forecasthub.org/){target="_blank"} und [deutsch/polnische](https://kitmetricslab.github.io/forecasthub/){target="_blank"} COVID-19 Forecast Hub mit Kurzzeitvorhersagen von Fall- und Todeszahlen (eine bis vier Wochen voraus).
